@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Java-Base/Java-Base.iml" filepath="$PROJECT_DIR$/Java-Base/Java-Base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-IO/Java-IO.iml" filepath="$PROJECT_DIR$/Java-IO/Java-IO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-Security/Java-Security.iml" filepath="$PROJECT_DIR$/Java-Security/Java-Security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/My-Armory-ForJava.iml" filepath="$PROJECT_DIR$/.idea/My-Armory-ForJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-Aop/Spring-Aop.iml" filepath="$PROJECT_DIR$/Spring-Aop/Spring-Aop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-Bean/Spring-Bean.iml" filepath="$PROJECT_DIR$/Spring-Bean/Spring-Bean.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-Boot/Spring-Boot.iml" filepath="$PROJECT_DIR$/Spring-Boot/Spring-Boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-Boot-Security/Spring-Boot-Security.iml" filepath="$PROJECT_DIR$/Spring-Boot-Security/Spring-Boot-Security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-Boot-Shiro/Spring-Boot-Shiro.iml" filepath="$PROJECT_DIR$/Spring-Boot-Shiro/Spring-Boot-Shiro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-Boot-Swagger2/Spring-Boot-Swagger2.iml" filepath="$PROJECT_DIR$/Spring-Boot-Swagger2/Spring-Boot-Swagger2.iml" />
+    </modules>
+  </component>
+</project>

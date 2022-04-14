@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Spring-Boot-Security" />
+        <module name="Spring-Boot-Shiro" />
+        <module name="Spring-Boot" />
+        <module name="Spring-Boot-Swagger2" />
+        <module name="Java-Base" />
+        <module name="Spring-Bean" />
+        <module name="Spring-Aop" />
+        <module name="Java-Security" />
+        <module name="Java-IO" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Java-Base" target="8" />
+      <module name="Java-IO" target="8" />
+      <module name="Java-Security" target="8" />
+      <module name="Spring-Aop" target="1.8" />
+      <module name="Spring-Bean" target="1.8" />
+      <module name="Spring-Boot" target="8" />
+      <module name="Spring-Boot-Security" target="8" />
+      <module name="Spring-Boot-Shiro" target="8" />
+      <module name="Spring-Boot-Swagger2" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Spring-Aop" options="-parameters" />
+      <module name="Spring-Bean" options="-parameters" />
+      <module name="Spring-Boot" options="-parameters" />
+      <module name="Spring-Boot-Security" options="-parameters" />
+      <module name="Spring-Boot-Shiro" options="-parameters" />
+      <module name="Spring-Boot-Swagger2" options="-parameters" />
+    </option>
+  </component>
+</project>

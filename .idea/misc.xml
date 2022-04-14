@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/java-security/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-Regist-Bean/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-AOP/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-Bean/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-Boot/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-Boot-Swagger2/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-Boot-Security/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-Boot-Shiro/pom.xml" />
+        <option value="$PROJECT_DIR$/Java-Base/pom.xml" />
+        <option value="$PROJECT_DIR$/Java-IO/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>
