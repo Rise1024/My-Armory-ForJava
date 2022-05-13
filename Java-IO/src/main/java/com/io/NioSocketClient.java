@@ -13,11 +13,6 @@ import java.net.SocketAddress;
 import java.nio.ByteBuffer;
 import java.nio.channels.SocketChannel;
 
-/**
- * description:
- *nio客户端
- * @author wkGui
- */
 public class NioSocketClient {
     public void start() {
         try (SocketChannel socketChannel = SocketChannel.open()) {

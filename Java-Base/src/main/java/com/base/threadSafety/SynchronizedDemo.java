@@ -35,7 +35,6 @@ import java.util.concurrent.atomic.AtomicInteger;
  *  * 情况五：两个线程同时访问同一个对象的不同 synchronized 方法，同步执行；
  *  * 情况六：两个线程同时访问静态 synchronized 方法和非静态 synchronized 方法，并行执行；
  *  * 情况七：方法抛异常后，会释放锁；
- *  * 情况八：在 synchronized 方法中调用了普通方法，就不是线程安全的了，synchronized 的作用范围只在 “{}” 内；
  *  * @createTime 2022/4/12 11:36
  *
  * @createTime 2022/3/24 17:27
@@ -54,8 +53,6 @@ import java.util.concurrent.atomic.AtomicInteger;
  * 禁止指令重排 有序性
  */
 
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
 
 public class SynchronizedDemo {
 

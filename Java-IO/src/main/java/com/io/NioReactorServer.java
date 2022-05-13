@@ -23,6 +23,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  * 3、selector是多路复用器，通过不断轮训selector的Channel,筛选出发生读写的channel,进行io操作
  * 一个线程筛选出真正发生读写的连接，大大减少系统开销
  * NIO selector多路复用
+ *
  * 多路复用IO模式，通过一个线程就可以管理多个socket，只有当socket真正有读写事件发生才会占用资源来进行实际的读写操作。
  * 因为，多路复用IO比较适合连接数比较多的情况
  * IO多路复用：
@@ -35,6 +36,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  * 1. 内核中保存一份文件描述符集合，无需用户每次都重新传入，只需告诉内核修改的部分即可。无需在复制，在集合上添加修改
  * 2. 内核不再通过轮询的方式找到就绪的文件描述符，而是通过异步 IO 事件唤醒。无需轮训，io唤醒存在读写的连接
  * 3. 内核仅会将有 IO 事件的文件描述符返回给用户，用户也无需遍历整个文件描述符集合。无需二次遍历
+ *
  * reactor线程模型
  * 因此发送端为了将多个发给接收端的包更有效的发给对方，使用了优化方法（Nagle 算法）
  * 将多次间隔较小且数据量小的数据，合并成一个大的数据块，然后进行封包。
@@ -53,7 +55,6 @@ import java.util.concurrent.atomic.AtomicInteger;
  * 之前的tcp是stop-wait的模式，在发送数据方在发送数据之后会启动定时器，但是如果数据或者ACK丢失，那么定时器到期之后，收不到ACK就认为发送出现状况，要进行重传。
  * 这种通信效率是非常低的
  *  引入滑动窗口
- *
  *
  *  发送并且已经确认ack
  *  Sent and Acknowledged：这些数据表示已经发送成功并已经被确认的数据，比如图中的前31个bytes，这些数据其实的位置是在窗口之外了，因为窗口内顺序最低的被确认之后，要移除窗口，实际上是窗口进行合拢，同时打开接收新的带发送的数据。
@@ -78,7 +79,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  * 服务端这时接受到客户端的ACK信息校验成功后(K与K+1)，不再返回信息，后面进入数据通讯阶段
  * c->s SYN (seq=a)
  * s->c SYN ACK (seq=b(seq是随机的) ack=a+1)
- * c->s
+ * c->s ACK（seq=a/b  ack=b+1）
  *
  * 数据通讯
  *
