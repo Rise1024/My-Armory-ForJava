@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54e21cdc-5c44-4980-a384-f0aa8d597878" name="Default Changelist" comment="" />
+    <list default="true" id="54e21cdc-5c44-4980-a384-f0aa8d597878" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/regular/RegularDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Security/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Boot-Security/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,9 +16,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin File" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -35,11 +42,15 @@
     </option>
   </component>
   <component name="ProjectId" id="25Uj43GUyNskj3qyCDqxci7W0uS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -49,7 +60,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Spring-Boot-Shiro/src/main/java/com/example/shiro" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Spring-Boot-Swagger2/src/main/java/com/example/swagger/conf" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.48081535" />
@@ -57,11 +68,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Spring-Boot-Shiro/src/main/java/com/example/shiro" />
-      <recent name="$PROJECT_DIR$/Spring-Boot-Security/src/main/resources" />
-      <recent name="$PROJECT_DIR$/Spring-Boot-Security/src/main/java/com/example/security/data" />
-      <recent name="$PROJECT_DIR$/Spring-Boot-Security/src/main/java/com/example/security/service" />
-      <recent name="$PROJECT_DIR$/Spring-Boot-Security/src/main/resources" />
+      <recent name="$PROJECT_DIR$/Spring-Boot-Swagger2/src/main/java/com/example/swagger/conf" />
+      <recent name="$PROJECT_DIR$/Spring-Cloud-Parent/Hystrix-Model/src/main/resources" />
+      <recent name="$PROJECT_DIR$/Spring-Cloud-Parent/Hystrix-Model/src/main" />
+      <recent name="$PROJECT_DIR$/Spring-Cloud-Parent/Hystrix-Model/src/main/java" />
+      <recent name="$PROJECT_DIR$/Spring-Cloud-Hystrix/src/main/resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.example.shiro" />
@@ -71,13 +85,13 @@
       <recent name="com.example.springboot.sourcecode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SynchronizedDemo">
-    <configuration name="ConditionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.base.jucAqs.ConditionDemo" />
+  <component name="RunManager" selected="Application.RegularDemo">
+    <configuration name="RegularDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.base.regular.RegularDemo" />
       <module name="Java-Base" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.base.jucAqs.*" />
+          <option name="PATTERN" value="com.base.regular.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,54 +99,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReentrantLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.base.jucAqs.ReentrantLockDemo" />
-      <module name="Java-Base" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.base.jucAqs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StampedLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.base.jucAqs.StampedLockDemo" />
-      <module name="Java-Base" />
+    <configuration name="ConsumerStarterApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Hystrix-Model" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.base.jucAqs.*" />
+          <option name="PATTERN" value="com.example.hystrix.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.hystrix.ConsumerStarterApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SynchronizedCodeBlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.base.threadSafety.SynchronizedCodeBlock" />
-      <module name="Java-Base" />
+    <configuration name="ConsumerStarterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Spring-Cloud-Hystrix" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.base.threadSafety.*" />
+          <option name="PATTERN" value="hystrix.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SynchronizedDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.base.threadSafety.SynchronizedDemo" />
-      <module name="Java-Base" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.base.threadSafety.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="hystrix.ConsumerStarterApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -158,13 +157,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DemoApplication (4)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Spring-Boot-Swagger2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.swagger.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.swagger.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Hystrix-Model" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.hystrix.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.hystrix.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SynchronizedDemo" />
-        <item itemvalue="Application.SynchronizedCodeBlock" />
-        <item itemvalue="Application.StampedLockDemo" />
-        <item itemvalue="Application.ConditionDemo" />
-        <item itemvalue="Application.ReentrantLockDemo" />
+        <item itemvalue="Application.RegularDemo" />
+        <item itemvalue="Spring Boot.DemoApplication (4)" />
+        <item itemvalue="Spring Boot.DemoApplication" />
+        <item itemvalue="Spring Boot.ConsumerStarterApplication (1)" />
+        <item itemvalue="Spring Boot.ConsumerStarterApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -216,9 +241,47 @@
       <workItem from="1649664439959" duration="7117000" />
       <workItem from="1649730156880" duration="9843000" />
       <workItem from="1649816431286" duration="6405000" />
-      <workItem from="1649903722845" duration="603000" />
+      <workItem from="1649903722845" duration="7258000" />
+      <workItem from="1649990503086" duration="5043000" />
+      <workItem from="1650525680959" duration="1166000" />
+      <workItem from="1650594201231" duration="8125000" />
+      <workItem from="1650765992425" duration="656000" />
+      <workItem from="1650857557900" duration="5732000" />
+      <workItem from="1650875177057" duration="6627000" />
+      <workItem from="1650939781180" duration="14387000" />
+      <workItem from="1651026182557" duration="2999000" />
+      <workItem from="1651112696514" duration="7522000" />
+      <workItem from="1652333728591" duration="7471000" />
+      <workItem from="1654683874722" duration="677000" />
+      <workItem from="1654739188359" duration="1974000" />
+      <workItem from="1655282330696" duration="5173000" />
     </task>
+    <task id="LOCAL-00001" summary="解决Spring Boot 6.x 与Swagger 3.0.0 不兼容问题">
+      <created>1652412148954</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1652412148954</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="解决Spring Boot 6.x 与Swagger 3.0.0 不兼容问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="解决Spring Boot 6.x 与Swagger 3.0.0 不兼容问题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

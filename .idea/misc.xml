@@ -13,7 +13,15 @@
         <option value="$PROJECT_DIR$/Spring-Boot-Shiro/pom.xml" />
         <option value="$PROJECT_DIR$/Java-Base/pom.xml" />
         <option value="$PROJECT_DIR$/Java-IO/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-Cloud-Hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-Cloud-Parent/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/Spring-Cloud-Hystrix/Hystrix-Model/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-Cloud-Parent/Hystrix-Model/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK" />

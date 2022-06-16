@@ -14,10 +14,12 @@
         <module name="Spring-Bean" />
         <module name="Spring-Aop" />
         <module name="Java-Security" />
+        <module name="Hystrix-Model" />
         <module name="Java-IO" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Hystrix-Model" target="8" />
       <module name="Java-Base" target="8" />
       <module name="Java-IO" target="8" />
       <module name="Java-Security" target="8" />
@@ -27,16 +29,20 @@
       <module name="Spring-Boot-Security" target="8" />
       <module name="Spring-Boot-Shiro" target="8" />
       <module name="Spring-Boot-Swagger2" target="8" />
+      <module name="Spring-Cloud-Hystrix" target="8" />
+      <module name="Spring-Cloud-Parent" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Hystrix-Model" options="-parameters" />
       <module name="Spring-Aop" options="-parameters" />
       <module name="Spring-Bean" options="-parameters" />
       <module name="Spring-Boot" options="-parameters" />
       <module name="Spring-Boot-Security" options="-parameters" />
       <module name="Spring-Boot-Shiro" options="-parameters" />
       <module name="Spring-Boot-Swagger2" options="-parameters" />
+      <module name="Spring-Cloud-Hystrix" options="" />
     </option>
   </component>
 </project>

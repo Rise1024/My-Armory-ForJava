@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Spring-Cloud-Parent/Hystrix-Model/Hystrix-Model.iml" filepath="$PROJECT_DIR$/Spring-Cloud-Parent/Hystrix-Model/Hystrix-Model.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java-Base/Java-Base.iml" filepath="$PROJECT_DIR$/Java-Base/Java-Base.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java-IO/Java-IO.iml" filepath="$PROJECT_DIR$/Java-IO/Java-IO.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java-Security/Java-Security.iml" filepath="$PROJECT_DIR$/Java-Security/Java-Security.iml" />
@@ -12,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/Spring-Boot-Security/Spring-Boot-Security.iml" filepath="$PROJECT_DIR$/Spring-Boot-Security/Spring-Boot-Security.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-Boot-Shiro/Spring-Boot-Shiro.iml" filepath="$PROJECT_DIR$/Spring-Boot-Shiro/Spring-Boot-Shiro.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-Boot-Swagger2/Spring-Boot-Swagger2.iml" filepath="$PROJECT_DIR$/Spring-Boot-Swagger2/Spring-Boot-Swagger2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-Cloud-Parent/Spring-Cloud-Parent.iml" filepath="$PROJECT_DIR$/Spring-Cloud-Parent/Spring-Cloud-Parent.iml" />
     </modules>
   </component>
 </project>
