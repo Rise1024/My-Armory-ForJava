@@ -114,7 +114,6 @@ public class CollectionDemo {
         Set 接⼝的集合⽐如 TreeSet 或 HashSet ，不需要就选择实现 List 接⼝的⽐如 ArrayList
         或 LinkedList ，然后再根据实现这些接⼝的集合的特点来选⽤。
 
-
         同步控制
         Collections 提供了多个 synchronizedXxx() ⽅法·，该⽅法可以将指定集合包装成线程同步的集
         合，从⽽解决多线程并发访问集合时的线程安全问题。
@@ -130,8 +129,6 @@ public class CollectionDemo {
         synchronizedMap(Map<K,V> m) //返回由指定映射⽀持的同步（线程安全的）
         Map。
         synchronizedSet(Set<T> s) //返回指定 set ⽀持的同步（线程安全的）set。
-
-
 
         List、Map、Set的区别
 
@@ -149,14 +146,11 @@ public class CollectionDemo {
         父类不同：HashMap的父类是AbstractMap，Hashtable的父类是Dictionary
                 HashMap
 
-
         JDK1.8之前，HashMap采用数组+链表实现，即使用链表处理冲突，同一hash值的链表都存储在一个链表里。但是当位于一个数组中的元素较多，即hash值相等的元素较多时，通过key值依次查找的效率较低。
         JDK1.8及之后，HashMap采用数组+链表+红黑树实现，当链表长度超过阈值（8）时，将链表转换为红黑树，这样大大减少了查找时间
         HashMap的实现原理：
         首先有一个每个元素都是链表（可能表述不准确）的数组，当添加一个元素（key-value）时，就首先计算元素key的hash值，以此确定插入数组中的位置，但是可能存在同一hash值的元素已经被放在数组同一位置了，这时就添加到同一hash值的元素的后面，他们在数组的同一位置，但是形成了链表，同一各链表上的Hash值是相同的，所以说数组存放的是链表。而当链表长度太长时，链表就转换为红黑树，这样大大提高了查找的效率。
         当链表数组的容量超过初始容量的0.75时，再散列将链表数组扩大2倍，把原链表数组的搬移到新的数组中
-
-
 
         方法描述	抛出异常	返回特殊的值	一直阻塞	超时退出
         插入数据	add(e)	offer(e)	put(e)	offer(e,time,unit)
