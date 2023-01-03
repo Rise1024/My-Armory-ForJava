@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="54e21cdc-5c44-4980-a384-f0aa8d597878" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+        <option value="package-info" />
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/AbstractList.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$USER_HOME$/resources/apache-maven-3.3.9/repository" />
+        <option name="mavenHome" value="$USER_HOME$/resources/apache-maven-3.3.9" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="$USER_HOME$/resources/apache-maven-3.3.9/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="25Uj43GUyNskj3qyCDqxci7W0uS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/mac_1/workplace3/My-Armory-ForJava&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;ba224f774666ba3362993b4f6329bd8d&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Spring-Boot-Log/src/main/java/com/example/log/desensitization" />
+      <recent name="$PROJECT_DIR$/Spring-Boot-Thymeleaf/src/main/resources/templates" />
+      <recent name="$PROJECT_DIR$/Spring-Boot-Thymeleaf/src/main/resources" />
+      <recent name="$PROJECT_DIR$/Spring-Aop/src/main/resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Spring-Boot-Kafka/src/main/java/com/example/kafka/consumer" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.leetcode.stack" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.refactor.strategy" />
+      <recent name="com.refactor.rule" />
+      <recent name="com.refactor.enumeration" />
+      <recent name="com.es" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.Thymeleaf.controller" />
+      <recent name="com.netty.webscoket.server" />
+      <recent name="com.base.extendstest" />
+      <recent name="com.netty.server" />
+      <recent name="com.netty.utils" />
+    </key>
+  </component>
+  <component name="RestServicesNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="Found 10 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+        </path>
+        <path>
+          <item name="Found 10 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+          <item name="Spring-Boot-Log" type="c588b436:RestServiceStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringAopDemoStarter">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bug.ArrayTest" />
+      <module name="Java-Base" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bug.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/My-Armory-ForJava/springboot-socketio/com/xncoding/jwt/socket/client/html/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-socketio" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xncoding.jwt.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Spring-Aop" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springaop.audit.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Spring-Bean" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springbean.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Spring-Boot" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springboot.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Spring-Boot-Log" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.log.desensitization.LogDemoApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.log.desensitization.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScoketIoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springboot-socketio" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xncoding.jwt.ScoketIoApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xncoding.jwt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringAopDemoStarter" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Spring-Aop" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springaop.SpringAopDemoStarter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.springaop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.SpringAopDemoStarter" />
+        <item itemvalue="Spring Boot.LogDemoApplication" />
+        <item itemvalue="Spring Boot.ScoketIoApplication" />
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="Application.ArrayTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="54e21cdc-5c44-4980-a384-f0aa8d597878" name="Default Changelist" comment="" />
+      <created>1645588368419</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1645588368419</updated>
+      <workItem from="1645588369989" duration="274000" />
+      <workItem from="1645588659804" duration="14909000" />
+      <workItem from="1645696845826" duration="699000" />
+      <workItem from="1645697561428" duration="939000" />
+      <workItem from="1645698517435" duration="2006000" />
+      <workItem from="1645758110659" duration="2397000" />
+      <workItem from="1645760538651" duration="12648000" />
+      <workItem from="1646120192454" duration="12138000" />
+      <workItem from="1646191572847" duration="12079000" />
+      <workItem from="1646214899505" duration="71000" />
+      <workItem from="1646214982910" duration="3503000" />
+      <workItem from="1646289152006" duration="12000" />
+      <workItem from="1646711182733" duration="428000" />
+      <workItem from="1646791913956" duration="4441000" />
+      <workItem from="1646811340592" duration="3037000" />
+      <workItem from="1646814680136" duration="2474000" />
+      <workItem from="1646839756366" duration="510000" />
+      <workItem from="1646881392997" duration="5857000" />
+      <workItem from="1646899693730" duration="228000" />
+      <workItem from="1646899941108" duration="9171000" />
+      <workItem from="1646964488277" duration="13762000" />
+      <workItem from="1647060505967" duration="8000" />
+      <workItem from="1647324424578" duration="7300000" />
+      <workItem from="1647397043893" duration="1528000" />
+      <workItem from="1647399752592" duration="1299000" />
+      <workItem from="1647426328750" duration="16000" />
+      <workItem from="1647484369770" duration="1516000" />
+      <workItem from="1647486146757" duration="6000" />
+      <workItem from="1648092284265" duration="10510000" />
+      <workItem from="1648188518873" duration="8048000" />
+      <workItem from="1648392812418" duration="11000" />
+      <workItem from="1648447835458" duration="1529000" />
+      <workItem from="1648549038024" duration="2661000" />
+      <workItem from="1648606653695" duration="11038000" />
+      <workItem from="1648692974631" duration="596000" />
+      <workItem from="1648882402979" duration="5198000" />
+      <workItem from="1649213003189" duration="4398000" />
+      <workItem from="1649664439959" duration="7117000" />
+      <workItem from="1649730156880" duration="9843000" />
+      <workItem from="1649816431286" duration="6405000" />
+      <workItem from="1649903722845" duration="7258000" />
+      <workItem from="1649990503086" duration="5043000" />
+      <workItem from="1650525680959" duration="1166000" />
+      <workItem from="1650594201231" duration="8125000" />
+      <workItem from="1650765992425" duration="656000" />
+      <workItem from="1650857557900" duration="5732000" />
+      <workItem from="1650875177057" duration="6627000" />
+      <workItem from="1650939781180" duration="14387000" />
+      <workItem from="1651026182557" duration="2999000" />
+      <workItem from="1651112696514" duration="7522000" />
+      <workItem from="1652333728591" duration="7471000" />
+      <workItem from="1654683874722" duration="677000" />
+      <workItem from="1654739188359" duration="1974000" />
+      <workItem from="1655282330696" duration="6891000" />
+      <workItem from="1656314097565" duration="7929000" />
+      <workItem from="1656467688924" duration="33455000" />
+      <workItem from="1656654808956" duration="6000" />
+      <workItem from="1656900044070" duration="7803000" />
+      <workItem from="1657511327315" duration="6990000" />
+      <workItem from="1658282301863" duration="2925000" />
+      <workItem from="1658372647666" duration="4080000" />
+      <workItem from="1658800675250" duration="28096000" />
+      <workItem from="1658978143908" duration="25000" />
+      <workItem from="1658978199377" duration="15048000" />
+      <workItem from="1659065644642" duration="13991000" />
+      <workItem from="1659321740651" duration="1965000" />
+      <workItem from="1659339896059" duration="8073000" />
+      <workItem from="1659407793387" duration="15586000" />
+      <workItem from="1659939106704" duration="11023000" />
+      <workItem from="1660096485188" duration="10188000" />
+      <workItem from="1660723315634" duration="974000" />
+      <workItem from="1660724440832" duration="8441000" />
+      <workItem from="1661157692490" duration="149000" />
+      <workItem from="1661157871476" duration="65000" />
+      <workItem from="1661305760924" duration="2028000" />
+      <workItem from="1661495551125" duration="4916000" />
+      <workItem from="1662105032870" duration="598000" />
+      <workItem from="1662450203598" duration="632000" />
+      <workItem from="1663316221073" duration="2315000" />
+      <workItem from="1663321841940" duration="36000" />
+      <workItem from="1663731182448" duration="1867000" />
+      <workItem from="1666078264710" duration="4143000" />
+      <workItem from="1666590823336" duration="3325000" />
+      <workItem from="1666595062040" duration="609000" />
+      <workItem from="1666662735578" duration="17733000" />
+      <workItem from="1667445632363" duration="3217000" />
+      <workItem from="1667456996030" duration="7743000" />
+      <workItem from="1667529564080" duration="24760000" />
+      <workItem from="1667836775856" duration="1000" />
+      <workItem from="1667879334161" duration="641000" />
+      <workItem from="1668148973259" duration="6687000" />
+      <workItem from="1668477002596" duration="31758000" />
+      <workItem from="1670299157229" duration="643000" />
+      <workItem from="1670321394177" duration="2066000" />
+      <workItem from="1670401486181" duration="647000" />
+      <workItem from="1671341405442" duration="6069000" />
+      <workItem from="1671507757347" duration="5888000" />
+      <workItem from="1671528108139" duration="7519000" />
+      <workItem from="1671629207709" duration="797000" />
+      <workItem from="1671634375072" duration="1537000" />
+      <workItem from="1671636186012" duration="1017000" />
+      <workItem from="1671637743461" duration="5586000" />
+      <workItem from="1671787622731" duration="2214000" />
+      <workItem from="1671806188520" duration="113000" />
+      <workItem from="1671806752131" duration="13831000" />
+      <workItem from="1671984129006" duration="4242000" />
+      <workItem from="1672024482805" duration="11107000" />
+      <workItem from="1672051061103" duration="1076000" />
+      <workItem from="1672062743414" duration="6065000" />
+      <workItem from="1672716697550" duration="2083000" />
+    </task>
+    <task id="LOCAL-00001" summary="解决Spring Boot 6.x 与Swagger 3.0.0 不兼容问题">
+      <created>1652412148954</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1652412148954</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Kafka消费模型">
+      <created>1658373433537</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1658373433537</updated>
+    </task>
+    <task id="LOCAL-00003" summary="完善">
+      <created>1672717932530</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1672717932530</updated>
+    </task>
+    <task id="LOCAL-00004" summary="完善2">
+      <created>1672717951311</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1672717951311</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="解决Spring Boot 6.x 与Swagger 3.0.0 不兼容问题" />
+    <MESSAGE value="Kafka消费模型" />
+    <MESSAGE value="完善" />
+    <MESSAGE value="完善2" />
+    <option name="LAST_COMMIT_MESSAGE" value="完善2" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

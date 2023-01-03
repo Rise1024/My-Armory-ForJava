@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/java-security/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-Regist-Bean/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-AOP/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-Bean/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-Boot/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-Boot-Swagger2/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-Boot-Security/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-Boot-Shiro/pom.xml" />
+        <option value="$PROJECT_DIR$/Java-Base/pom.xml" />
+        <option value="$PROJECT_DIR$/Java-IO/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-Cloud-Hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-Cloud-Parent/pom.xml" />
+        <option value="$PROJECT_DIR$/Question-Of-The-Day/pom.xml" />
+        <option value="$PROJECT_DIR$/Leetcode/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-Boot-Log/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-Boot-Webscoket/pom.xml" />
+        <option value="$PROJECT_DIR$/untitled/pom.xml" />
+        <option value="$PROJECT_DIR$/Code-Refactoring/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-Boot-ES/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-Boot-Netty/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-Boot-Thymeleaf/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-Boot-Socketio/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/Spring-Cloud-Hystrix/Hystrix-Model/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-Cloud-Parent/Hystrix-Model/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>

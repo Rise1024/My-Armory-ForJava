@@ -1,0 +1,11 @@
+com/refactor/factory/OperationImpl2.class
+com/refactor/CodeRefactorDemoStarter.class
+com/refactor/enumeration/CalculateForEnum.class
+com/refactor/enumeration/Operator.class
+com/refactor/factory/OperatorFactory.class
+com/refactor/enumeration/Operator$1.class
+com/refactor/enumeration/Operator$2.class
+com/refactor/factory/Operation.class
+com/refactor/commend/Command.class
+com/refactor/factory/Calculate.class
+com/refactor/factory/OperationImpl1.class

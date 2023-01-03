@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>Spring-Boot-Log</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+    </properties>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.6.8</version>
+        <relativePath/>
+    </parent>
+
+    <dependencies>
+<!--        log4j-api 2.13.3  log4j2定义的api
+            log4j-to-slf4j 2.13.3 log4j2到slf4j的桥梁
+            logback-classic 1.2.3 logback实现了slf4j的API,slf4j到logback的桥梁
+            logback-core 1.2.3  logback的核心实现包
+            spring-boot-starter-logging 2.3.12.RELEASE
+            所以
+            -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.springframework.boot</groupId>-->
+<!--            <artifactId>spring-boot-starter-log4j2</artifactId>-->
+<!--        </dependency>-->
+<!--        springboot默认使用的的是slf4j+logback框架-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-logging</artifactId>
+        </dependency>
+        <!--        logback的实现-->
+<!--        <dependency>-->
+<!--            <groupId>ch.qos.logback</groupId>-->
+<!--            <artifactId>logback-classic</artifactId>-->
+<!--            <version>1.2.10</version>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>ch.qos.logback</groupId>-->
+<!--            <artifactId>logback-core</artifactId>-->
+<!--            <version>1.2.10</version>-->
+<!--        </dependency>-->
+
+         <!--        log4j2的实现-->
+        <!--    log4j2定义的api    -->
+<!--        <dependency>-->
+<!--            <groupId>org.apache.logging.log4j</groupId>-->
+<!--            <artifactId>log4j-api</artifactId>-->
+<!--            <version>2.18.0</version>-->
+<!--        </dependency>-->
+       <!--     log4j2的核心包     -->
+<!--        <dependency>-->
+<!--            <groupId>org.apache.logging.log4j</groupId>-->
+<!--            <artifactId>log4j-core</artifactId>-->
+<!--            <version>2.17.2</version>-->
+<!--        </dependency>-->
+
+        <!-- commons-logging的原生全部内容 -->
+<!--        <dependency>-->
+<!--            <groupId>commons-logging</groupId>-->
+<!--            <artifactId>commons-logging</artifactId>-->
+<!--            <version>1.2</version>-->
+<!--        </dependency>-->
+
+<!--        一、使用slf4j的api编程，底层用其他具体的实现：-->
+
+<!--        slf4j-jdk14：slf4j到jdk-logging的桥梁-->
+
+<!--        slf4j-log4j12：slf4j到log4j1的桥梁-->
+
+<!--        log4j-slf4j-impl：slf4j到log4j2的桥梁-->
+
+<!--        logback-classic：slf4j到logback的桥梁-->
+
+<!--        slf4j-jcl：slf4j到commons-logging的桥梁-->
+
+<!--        二、如果项目中使用log4j的api编程，但最终输出通过logback来实现，这样的话就必须先将log4j转交给slf4j，再通过logback-classic转交给logback-->
+
+
+        <!--        jcl-over-slf4j：commons-logging到slf4j的桥梁-->
+<!--        <dependency>-->
+<!--            <groupId>org.slf4j</groupId>-->
+<!--            <artifactId>jul-to-slf4j</artifactId>-->
+<!--            <version>1.7.36</version>-->
+<!--        </dependency>-->
+
+        <!--        jul-to-slf4j：jdk-logging到slf4j的桥梁-->
+<!--        <dependency>-->
+<!--            <groupId>org.slf4j</groupId>-->
+<!--            <artifactId>jcl-over-slf4j</artifactId>-->
+<!--            <version>1.7.36</version>-->
+<!--        </dependency>-->
+
+        <!--        log4j-to-slf4j：log4j2到slf4j的桥梁-->
+<!--        <dependency>-->
+<!--            <groupId>org.apache.logging.log4j</groupId>-->
+<!--            <artifactId>log4j-to-slf4j</artifactId>-->
+<!--            <version>2.18.0</version>-->
+<!--        </dependency>-->
+
+        <!--        log4j-over-slf4j：log4j1到slf4j的桥梁-->
+<!--        <dependency>-->
+<!--            <groupId>org.slf4j</groupId>-->
+<!--            <artifactId>log4j-over-slf4j</artifactId>-->
+<!--            <version>1.7.36</version>-->
+<!--        </dependency>-->
+
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.14</version>
+        </dependency>
+    </dependencies>
+
+</project>

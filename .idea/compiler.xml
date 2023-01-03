@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Spring-Boot-Swagger2" />
+        <module name="Java-Base" />
+        <module name="Spring-Boot-Netty" />
+        <module name="Spring-Aop" />
+        <module name="Java-Security" />
+        <module name="Spring-Boot-Thymeleaf" />
+        <module name="Leetcode" />
+        <module name="Spring-Boot-ES" />
+        <module name="Java-IO" />
+        <module name="Spring-Boot-Security" />
+        <module name="Spring-Boot-Shiro" />
+        <module name="Spring-Boot-Webscoket" />
+        <module name="Spring-Boot" />
+        <module name="Spring-Boot-Log" />
+        <module name="Spring-Bean" />
+        <module name="Question-Of-The-Day" />
+        <module name="springboot-socketio" />
+        <module name="Code-Refactoring" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Hystrix-Model" target="8" />
+      <module name="Spring-Cloud-Hystrix" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Code-Refactoring" options="-parameters" />
+      <module name="Hystrix-Model" options="-parameters" />
+      <module name="Spring-Aop" options="-parameters" />
+      <module name="Spring-Bean" options="-parameters" />
+      <module name="Spring-Boot" options="-parameters" />
+      <module name="Spring-Boot-ES" options="-parameters" />
+      <module name="Spring-Boot-Log" options="-parameters" />
+      <module name="Spring-Boot-Netty" options="-parameters" />
+      <module name="Spring-Boot-Security" options="-parameters" />
+      <module name="Spring-Boot-Shiro" options="-parameters" />
+      <module name="Spring-Boot-Swagger2" options="-parameters" />
+      <module name="Spring-Boot-Thymeleaf" options="-parameters" />
+      <module name="Spring-Boot-Webscoket" options="-parameters" />
+      <module name="Spring-Cloud-Hystrix" options="" />
+      <module name="springboot-socketio" options="-parameters" />
+    </option>
+  </component>
+</project>
