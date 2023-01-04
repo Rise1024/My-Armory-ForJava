@@ -4,7 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54e21cdc-5c44-4980-a384-f0aa8d597878" name="Default Changelist" comment="" />
+    <list default="true" id="54e21cdc-5c44-4980-a384-f0aa8d597878" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D:/logs/app.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Socketio/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Socketio/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Socketio/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Socketio/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Socketio/run.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Socketio/src/main/java/com/xncoding/jwt/ScoketIoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Socketio/src/main/java/com/xncoding/jwt/common/JsonConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Socketio/src/main/java/com/xncoding/jwt/common/ServerRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Socketio/src/main/java/com/xncoding/jwt/config/NettySocketConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Socketio/src/main/java/com/xncoding/jwt/config/properties/MyProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Socketio/src/main/java/com/xncoding/jwt/handler/MessageEventHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Socketio/src/main/java/com/xncoding/jwt/model/ChatMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Socketio/src/main/java/com/xncoding/jwt/model/LoginRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Socketio/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Socketio/src/test/java/com/xncoding/jwt/socket/client/SocketClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Socketio/src/test/java/com/xncoding/jwt/socket/client/html/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Socketio/src/test/java/com/xncoding/jwt/socket/client/html/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Socketio/src/test/java/com/xncoding/jwt/socket/client/html/js/jquery-1.10.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Socketio/src/test/java/com/xncoding/jwt/socket/client/html/js/moment.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Socketio/src/test/java/com/xncoding/jwt/socket/client/html/js/socket.io/socket.io.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/img_1.png" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,35 +85,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/mac_1/workplace3/My-Armory-ForJava&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;ba224f774666ba3362993b4f6329bd8d&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "/Users/mac_1/workplace3/My-Armory-ForJava/images",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "ba224f774666ba3362993b4f6329bd8d"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Spring-Boot-Log/src/main/java/com/example/log/desensitization" />
       <recent name="$PROJECT_DIR$/Spring-Boot-Thymeleaf/src/main/resources/templates" />
       <recent name="$PROJECT_DIR$/Spring-Boot-Thymeleaf/src/main/resources" />
-      <recent name="$PROJECT_DIR$/Spring-Aop/src/main/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Spring-Boot-Kafka/src/main/java/com/example/kafka/consumer" />
@@ -399,7 +427,33 @@
                   <entry key="Show.Git.Branches" value="false" />
                 </map>
               </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
             </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>

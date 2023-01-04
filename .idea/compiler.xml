@@ -23,13 +23,13 @@
         <module name="Spring-Boot-Log" />
         <module name="Spring-Bean" />
         <module name="Question-Of-The-Day" />
-        <module name="springboot-socketio" />
         <module name="Code-Refactoring" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Hystrix-Model" target="8" />
       <module name="Spring-Cloud-Hystrix" target="8" />
+      <module name="springboot-socketio" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
