@@ -5,33 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54e21cdc-5c44-4980-a384-f0aa8d597878" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Code-Video/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code-Video/src/main/java/com/video/RateLimiterStarter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code-Video/src/main/java/com/video/googleLimit/controller/RateLimiterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code-Video/src/main/java/com/video/googleLimit/service/GuavaRateLimiterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code-Video/target/Code-Video-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code-Video/target/classes/com/video/RateLimiterStarter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code-Video/target/classes/com/video/googleLimit/controller/RateLimiterTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code-Video/target/classes/com/video/googleLimit/service/GuavaRateLimiterService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code-Video/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code-Video/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code-Video/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code-Video/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code-Video/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ant.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/D:/logs/app.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-Boot-Socketio/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-Boot-Socketio/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-Boot-Socketio/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-Boot-Socketio/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-Boot-Socketio/run.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-Boot-Socketio/src/main/java/com/xncoding/jwt/ScoketIoApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-Boot-Socketio/src/main/java/com/xncoding/jwt/common/JsonConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-Boot-Socketio/src/main/java/com/xncoding/jwt/common/ServerRunner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-Boot-Socketio/src/main/java/com/xncoding/jwt/config/NettySocketConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-Boot-Socketio/src/main/java/com/xncoding/jwt/config/properties/MyProperties.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-Boot-Socketio/src/main/java/com/xncoding/jwt/handler/MessageEventHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-Boot-Socketio/src/main/java/com/xncoding/jwt/model/ChatMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-Boot-Socketio/src/main/java/com/xncoding/jwt/model/LoginRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-Boot-Socketio/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-Boot-Socketio/src/test/java/com/xncoding/jwt/socket/client/SocketClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-Boot-Socketio/src/test/java/com/xncoding/jwt/socket/client/html/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-Boot-Socketio/src/test/java/com/xncoding/jwt/socket/client/html/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-Boot-Socketio/src/test/java/com/xncoding/jwt/socket/client/html/js/jquery-1.10.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-Boot-Socketio/src/test/java/com/xncoding/jwt/socket/client/html/js/moment.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-Boot-Socketio/src/test/java/com/xncoding/jwt/socket/client/html/js/socket.io/socket.io.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/img.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/img_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Cloud-Parent/Hystrix-Model/Hystrix-Model.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Cloud-Parent/Hystrix-Model/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Cloud-Parent/Hystrix-Limiter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Cloud-Parent/Hystrix-Model/src/main/java/com/example/hystrix/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Cloud-Parent/Hystrix-Limiter/src/main/java/com/example/hystrix/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Cloud-Parent/Hystrix-Model/src/main/java/com/example/hystrix/controller/HystrixCommandKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Cloud-Parent/Hystrix-Limiter/src/main/java/com/example/hystrix/controller/HystrixCommandKey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Cloud-Parent/Hystrix-Model/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Cloud-Parent/Hystrix-Limiter/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Cloud-Parent/Hystrix-Model/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Cloud-Parent/Hystrix-Model/target/classes/com/example/hystrix/DemoApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Cloud-Parent/Hystrix-Model/target/classes/com/example/hystrix/controller/HystrixCommandKey.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Cloud-Parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Cloud-Parent/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,22 +98,22 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "/Users/mac_1/workplace3/My-Armory-ForJava/images",
+    "last_opened_file_path": "/Users/mac_1/workplace3/My-Armory-ForJava/Spring-Cloud-Parent/Hystrix-Limiter",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "ba224f774666ba3362993b4f6329bd8d"
+    "spring.configuration.checksum": "04fcf2ee223b26fb2c9638a8fff2e0f2"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Spring-Cloud-Parent/Hystrix-Limiter" />
       <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Spring-Boot-Log/src/main/java/com/example/log/desensitization" />
       <recent name="$PROJECT_DIR$/Spring-Boot-Thymeleaf/src/main/resources/templates" />
-      <recent name="$PROJECT_DIR$/Spring-Boot-Thymeleaf/src/main/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Spring-Boot-Kafka/src/main/java/com/example/kafka/consumer" />
@@ -134,28 +134,28 @@
       <recent name="com.es" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.video.googleLimit" />
       <recent name="com.example.Thymeleaf.controller" />
       <recent name="com.netty.webscoket.server" />
       <recent name="com.base.extendstest" />
       <recent name="com.netty.server" />
-      <recent name="com.netty.utils" />
     </key>
   </component>
   <component name="RestServicesNavigator">
     <treeState>
       <expand>
         <path>
-          <item name="Found 10 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+          <item name="Found 11 services " type="fcff1e1b:RestServiceStructure$RootNode" />
         </path>
         <path>
-          <item name="Found 10 services " type="fcff1e1b:RestServiceStructure$RootNode" />
-          <item name="Spring-Boot-Log" type="c588b436:RestServiceStructure$ProjectNode" />
+          <item name="Found 11 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+          <item name="Code-Video" type="c588b436:RestServiceStructure$ProjectNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringAopDemoStarter">
+  <component name="RunManager" selected="Spring Boot.RateLimiterStarter">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -163,19 +163,6 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bug.ArrayTest" />
-      <module name="Java-Base" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bug.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -224,6 +211,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RateLimiterStarter" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Code-Video" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.video.RateLimiterStarter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.video.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ScoketIoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="springboot-socketio" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xncoding.jwt.ScoketIoApplication" />
@@ -252,11 +252,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.RateLimiterStarter" />
         <item itemvalue="Spring Boot.SpringAopDemoStarter" />
         <item itemvalue="Spring Boot.LogDemoApplication" />
         <item itemvalue="Spring Boot.ScoketIoApplication" />
         <item itemvalue="JavaScript Debug.index.html" />
-        <item itemvalue="Application.ArrayTest" />
       </list>
     </recent_temporary>
   </component>
@@ -381,6 +381,7 @@
       <workItem from="1672051061103" duration="1076000" />
       <workItem from="1672062743414" duration="6065000" />
       <workItem from="1672716697550" duration="2083000" />
+      <workItem from="1672838029300" duration="7244000" />
     </task>
     <task id="LOCAL-00001" summary="解决Spring Boot 6.x 与Swagger 3.0.0 不兼容问题">
       <created>1652412148954</created>
@@ -466,6 +467,17 @@
     <MESSAGE value="完善" />
     <MESSAGE value="完善2" />
     <option name="LAST_COMMIT_MESSAGE" value="完善2" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Code-Video/src/main/java/com/video/googleLimit/factory/RateLimiterFactory.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

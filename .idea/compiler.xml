@@ -23,7 +23,9 @@
         <module name="Spring-Boot-Log" />
         <module name="Spring-Bean" />
         <module name="Question-Of-The-Day" />
+        <module name="Hystrix-Limiter" />
         <module name="Code-Refactoring" />
+        <module name="Code-Video" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -35,6 +37,8 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Code-Refactoring" options="-parameters" />
+      <module name="Code-Video" options="-parameters" />
+      <module name="Hystrix-Limiter" options="-parameters" />
       <module name="Hystrix-Model" options="-parameters" />
       <module name="Spring-Aop" options="-parameters" />
       <module name="Spring-Bean" options="-parameters" />
