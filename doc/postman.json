@@ -1,0 +1,76 @@
+{
+  "info": {
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_postman_id": "d7507958-3df7-4194-a33b-1f523c9b7d6f",
+    "name": "Parent pom providing dependency and plugin management for applications built with Maven"
+  },
+  "item": [
+    {
+      "name": "Interface name is not set.",
+      "item": []
+    },
+    {
+      "name": "Interface name is not set.",
+      "item": [
+        {
+          "name": "这是一个查询接口",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::server/smart",
+              "protocol": "http",
+              "path": [
+                "smart"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "这是一个查询接口",
+            "header": []
+          },
+          "description": "这是一个查询接口"
+        },
+        {
+          "name": "这是一个创建接口",
+          "request": {
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"bernice.hessel\",\n  \"age\": 43,\n  \"boy\": true\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::server/smart1",
+              "protocol": "http",
+              "path": [
+                "smart1"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "这是一个创建接口",
+            "header": []
+          },
+          "description": "这是一个创建接口"
+        }
+      ]
+    }
+  ]
+}

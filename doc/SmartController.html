@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="smart-doc">
+    <title>Parent pom providing dependency and plugin management for applications built with Maven</title>
+    <link rel="stylesheet" href="font.css">
+    <link rel="stylesheet" href="AllInOne.css?v=1672931470346"/>
+    
+    <style>.literalblock pre, .listingblock pre:not(.highlight), .listingblock pre[class="highlight"], .listingblock pre[class^="highlight "], .listingblock pre.CodeRay, .listingblock pre.prettyprint {
+        background: #f7f7f8;
+    }
+
+    .hljs {
+        padding: 0em;
+    }</style>
+    <script src="highlight.min.js"></script>
+    <script src="jquery.min.js"></script>
+</head>
+<body class="book toc2 toc-left">
+<div id="header"><h1>Parent pom providing dependency and plugin management for applications built with Maven</h1>
+    <div id="toc" class="toc2">
+        <div id="book-search-input"><input id="search" type="text" placeholder="Type to search"></div>
+        <div id="toctitle"><span>API Reference</span></div>
+        <ul id="accordion" class="sectlevel1">
+            <li class=""><a class="dd" href="api.html#header">1.&nbsp;</a>
+                <ul class="sectlevel2" style="display: none">                </ul>
+            </li>
+            <li class="open"><a class="dd" href="SmartController.html#header">2.&nbsp;</a>
+                <ul class="sectlevel2" style="display: block">
+                    <li><a
+                            href="SmartController.html#_2_1_这是一个查询接口">2.1.&nbsp;这是一个查询接口</a>
+                    </li>
+
+                    <li><a
+                            href="SmartController.html#_2_2_这是一个创建接口">2.2.&nbsp;这是一个创建接口</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+<div id="content">
+    <div class="sect1"><h2 id="_"><a class="anchor" href="#_"></a><a class="link" href="#_">2.&nbsp;</a>
+    </h2>
+        <div class="sectionbody">
+            <div class="sect2"><h3 id="_2_1_这是一个查询接口">
+                <a class="anchor" href="#_2_1_这是一个查询接口"></a>
+                <a class="link" href="#_2_1_这是一个查询接口">2.1.&nbsp;这是一个查询接口</a>
+            </h3>
+                <div class="paragraph"><p><strong>URL:</strong><a href="http://{{server}}/smart" class="bare">&nbsp;http://{{server}}/smart</a>
+                </p></div>
+                <div class="paragraph"><p><strong>Type:</strong>&nbsp;GET</p></div>
+                <div class="paragraph"><p><strong>Content-Type:</strong>&nbsp;application/x-www-form-urlencoded;charset=UTF-8</p></div>
+                <div class="paragraph"><p><strong>Description:</strong>&nbsp;这是一个查询接口</p></div>
+                <div class="paragraph"><p><strong>Request-example:</strong></p></div>
+                <div class="listingblock">
+                    <div class="content">
+                        <pre><code class="bash">curl -X GET -i http://{{server}}/smart</code></pre>
+                    </div>
+                </div>
+                <div class="paragraph"><p><strong>Response-fields:</strong></p></div>
+                <table class="tableblock frame-all grid-all spread">
+                    <colgroup>
+                        <col style="width: 25%;">
+                        <col style="width: 25%;">
+                        <col style="width: 25%;">
+                        <col style="width: 25%;">
+                    </colgroup>
+                    <thead>
+                    <tr>
+                        <th class="tableblock halign-left valign-top">Field</th>
+                        <th class="tableblock halign-left valign-top">Type</th>
+                        <th class="tableblock halign-left valign-top">Description</th>
+                        <th class="tableblock halign-left valign-top">Since</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">name</p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">string</p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">姓名</p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">-</p></td>
+                    </tr>
+
+                    <tr>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">age</p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">int32</p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">年龄</p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">-</p></td>
+                    </tr>
+
+                    <tr>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">boy</p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">boolean</p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">是否男孩</p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">-</p></td>
+                    </tr>
+                    </tbody>
+                </table>
+                <div class="paragraph"><p><strong>Response-example:</strong></p></div>
+                <div class="listingblock">
+                    <div class="content">
+                        <pre><code class="json">{
+  "name": "bernice.hessel",
+  "age": 43,
+  "boy": true
+}</code></pre>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sect2"><h3 id="_2_2_这是一个创建接口">
+                <a class="anchor" href="#_2_2_这是一个创建接口"></a>
+                <a class="link" href="#_2_2_这是一个创建接口">2.2.&nbsp;这是一个创建接口</a>
+            </h3>
+                <div class="paragraph"><p><strong>URL:</strong><a href="http://{{server}}/smart1" class="bare">&nbsp;http://{{server}}/smart1</a>
+                </p></div>
+                <div class="paragraph"><p><strong>Type:</strong>&nbsp;POST</p></div>
+                <div class="paragraph"><p><strong>Content-Type:</strong>&nbsp;application/json</p></div>
+                <div class="paragraph"><p><strong>Description:</strong>&nbsp;这是一个创建接口</p></div>
+                <div class="paragraph"><p><strong>Body-parameters:</strong></p></div>
+                <table class="tableblock frame-all grid-all spread">
+                    <colgroup>
+                        <col style="width: 20%;">
+                        <col style="width: 20%;">
+                        <col style="width: 20%;">
+                        <col style="width: 20%;">
+                        <col style="width: 20%;">
+                    </colgroup>
+                    <thead>
+                    <tr>
+                        <th class="tableblock halign-left valign-top">Parameter</th>
+                        <th class="tableblock halign-left valign-top">Type</th>
+                        <th class="tableblock halign-left valign-top">Description</th>
+                        <th class="tableblock halign-left valign-top">Required</th>
+                        <th class="tableblock halign-left valign-top">Since</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">name</p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">string</p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">姓名</p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">false</p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">-</p></td>
+                    </tr>
+
+                    <tr>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">age</p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">int32</p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">年龄</p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">false</p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">-</p></td>
+                    </tr>
+
+                    <tr>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">boy</p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">boolean</p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">是否男孩</p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">false</p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">-</p></td>
+                    </tr>
+                    </tbody>
+                </table>
+                <div class="paragraph"><p><strong>Request-example:</strong></p></div>
+                <div class="listingblock">
+                    <div class="content">
+                        <pre><code class="bash">curl -X POST -H 'Content-Type: application/json' -i http://{{server}}/smart1 --data '{
+  "name": "bernice.hessel",
+  "age": 43,
+  "boy": true
+}'</code></pre>
+                    </div>
+                </div>
+                <div class="paragraph"><p><strong>Response-fields:</strong></p></div>
+                <table class="tableblock frame-all grid-all spread">
+                    <colgroup>
+                        <col style="width: 25%;">
+                        <col style="width: 25%;">
+                        <col style="width: 25%;">
+                        <col style="width: 25%;">
+                    </colgroup>
+                    <thead>
+                    <tr>
+                        <th class="tableblock halign-left valign-top">Field</th>
+                        <th class="tableblock halign-left valign-top">Type</th>
+                        <th class="tableblock halign-left valign-top">Description</th>
+                        <th class="tableblock halign-left valign-top">Since</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">name</p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">string</p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">姓名</p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">-</p></td>
+                    </tr>
+
+                    <tr>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">age</p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">int32</p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">年龄</p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">-</p></td>
+                    </tr>
+
+                    <tr>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">boy</p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">boolean</p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">是否男孩</p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">-</p></td>
+                    </tr>
+                    </tbody>
+                </table>
+                <div class="paragraph"><p><strong>Response-example:</strong></p></div>
+                <div class="listingblock">
+                    <div class="content">
+                        <pre><code class="json">{
+  "name": "bernice.hessel",
+  "age": 43,
+  "boy": true
+}</code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="page-footer"><span class="copyright">Generated by smart-doc at 2023-01-05 23:11:10</span><span
+            class="footer-modification">Suggestions,contact,support and error reporting on<a
+            href="https://gitee.com/smart-doc-team/smart-doc" target="_blank">&nbsp;Gitee</a>&nbsp;or<a
+            href="https://github.com/smart-doc-group/smart-doc.git" target="_blank">&nbsp;Github</a></span></footer>
+</div>
+<script src="search.js?v=1672931470346"></script>
+<script>
+    $(function () {
+        const Accordion = function (el, multiple) {
+            this.el = el || {};
+            this.multiple = multiple || false;
+            const links = this.el.find('.dd');
+            links.on('click', {el: this.el, multiple: this.multiple}, this.dropdown);
+        };
+        Accordion.prototype.dropdown = function (e) {
+            const $el = e.data.el;
+            const $this = $(this), $next = $this.next();
+            $next.slideToggle();
+            $this.parent().toggleClass('open');
+            if (!e.data.multiple) {
+                $el.find('.submenu').not($next).slideUp("20").parent().removeClass('open');
+            }
+        };
+        new Accordion($('#accordion'), false);
+        hljs.highlightAll()
+    });
+</script>
+</body>
+</html>

@@ -5,9 +5,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 
 @SpringBootApplication
-public class RateLimiterStarter {
+public class CodeVideoStarter {
     public static void main(String[] args) throws Exception {
-        SpringApplication.run(RateLimiterStarter.class, args);
+        SpringApplication.run(CodeVideoStarter.class, args);
     }
 
 }

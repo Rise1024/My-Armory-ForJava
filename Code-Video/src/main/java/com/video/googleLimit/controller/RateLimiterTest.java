@@ -20,7 +20,7 @@ public class RateLimiterTest {
     @Autowired
     private GuavaRateLimiterService guavaRateLimiterService;
 
-    @GetMapping("/test")
+//    @GetMapping("/test")
     public String test(HttpServletRequest request,HttpServletResponse response) {
         if (!guavaRateLimiterService.tryGetToken()) {
             response.setStatus(500);
