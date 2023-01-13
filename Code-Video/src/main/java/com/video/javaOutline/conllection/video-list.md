@@ -1,5 +1,5 @@
 ### List视频文案
-- [ArrayList源码](/com/video/javaOutline/conllection/list/ArrayList.java)
+- [ArrayList源码](/Code-Video/src/main/java/com/video/javaOutline/conllection/list/ArrayList.java)
 
 1、add 第 1 个元素的时候，
 数组还为空，
