@@ -5,27 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54e21cdc-5c44-4980-a384-f0aa8d597878" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Code-Video/src/main/java/com/video/functionalTest/functionnalDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code-Video/src/main/java/com/video/javaOutline/conllection/list/ArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code-Video/src/main/java/com/video/sqlOptimization/sql-optimization.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/functiona/FunctionalAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/functiona/Strategize.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python-Projrct/Python-Projrct.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python-Projrct/testsql.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-Boot-NewJDK17/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-Boot-NewJDK17/src/main/java/com/jdk17/controller/MyApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-Boot-NewJDK17/src/main/java/com/jdk17/http/HttpclientTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code-Video/src/main/java/com/video/javaOutline/conllection/image/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code-Video/src/main/java/com/video/javaOutline/conllection/video-list.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code-Video/src/main/java/com/video/javaOutline/conllection/list/ListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Code-Video/src/main/java/com/video/javaOutline/conllection/list/ListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code-Video/target/classes/com/video/screw/conf/ScrewSqlTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Code-Video/target/classes/com/video/screw/conf/ScrewSqlTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/functiona/FunctionalInterfaceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/functiona/FunctionalInterfaceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-Base/target/classes/com/base/functiona/FunctionalInterfaceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Base/target/classes/com/base/functiona/FunctionalInterfaceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/img.png" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Bean/images/img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/img_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Bean/images/img_1.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,37 +64,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/mac_1/workplace3/My-Armory-ForJava/Code-Video/src/main/resources&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2551724&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;905d87e740386be8204c59fa465e2618&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
+    "last_opened_file_path": "/Users/mac_1/workplace3/My-Armory-ForJava/Code-Video",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2551724",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "spring.configuration.checksum": "905d87e740386be8204c59fa465e2618"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Code-Video" />
+      <recent name="$PROJECT_DIR$/Java-Security" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Code-Video/src/main/resources" />
       <recent name="$PROJECT_DIR$/Spring-Cloud-Parent/Hystrix-Limiter" />
-      <recent name="$PROJECT_DIR$/images" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/Spring-Boot-Log/src/main/java/com/example/log/desensitization" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Spring-Bean" />
       <recent name="$PROJECT_DIR$/Spring-Boot-Kafka/src/main/java/com/example/kafka/consumer" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -129,11 +114,11 @@
       <recent name="com.es" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.video.javaOutline.conllection.list" />
       <recent name="com.video.googleLimit" />
       <recent name="com.example.Thymeleaf.controller" />
       <recent name="com.netty.webscoket.server" />
       <recent name="com.base.extendstest" />
-      <recent name="com.netty.server" />
     </key>
   </component>
   <component name="RestServicesNavigator">
@@ -418,7 +403,7 @@
       <workItem from="1673341499923" duration="568000" />
       <workItem from="1673342129707" duration="4504000" />
       <workItem from="1673401690664" duration="15347000" />
-      <workItem from="1673618356979" duration="661000" />
+      <workItem from="1673618356979" duration="4811000" />
     </task>
     <task id="LOCAL-00001" summary="解决Spring Boot 6.x 与Swagger 3.0.0 不兼容问题">
       <created>1652412148954</created>
