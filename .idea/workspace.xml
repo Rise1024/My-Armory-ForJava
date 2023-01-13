@@ -5,13 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54e21cdc-5c44-4980-a384-f0aa8d597878" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Code-Video/src/main/java/com/video/javaOutline/conllection/list/ListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code-Video/src/main/java/com/video/screw/conf/ScrewSqlTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screw/自定义文件名称.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code-Video/src/main/java/com/video/functionalTest/functionnalDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code-Video/src/main/java/com/video/javaOutline/conllection/list/ArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code-Video/src/main/java/com/video/sqlOptimization/sql-optimization.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/functiona/FunctionalAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/functiona/Strategize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python-Projrct/Python-Projrct.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python-Projrct/testsql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-NewJDK17/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-NewJDK17/src/main/java/com/jdk17/controller/MyApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-NewJDK17/src/main/java/com/jdk17/http/HttpclientTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code-Video/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Code-Video/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code-Video/target/classes/com/video/smartdoc/data/SmartData.class" beforeDir="false" afterPath="$PROJECT_DIR$/Code-Video/target/classes/com/video/smartdoc/data/SmartData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code-Video/src/main/java/com/video/javaOutline/conllection/list/ListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Code-Video/src/main/java/com/video/javaOutline/conllection/list/ListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code-Video/target/classes/com/video/screw/conf/ScrewSqlTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Code-Video/target/classes/com/video/screw/conf/ScrewSqlTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/functiona/FunctionalInterfaceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/functiona/FunctionalInterfaceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/target/classes/com/base/functiona/FunctionalInterfaceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Base/target/classes/com/base/functiona/FunctionalInterfaceTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +39,7 @@
         <option value="package-info" />
         <option value="Interface" />
         <option value="JUnit5 Test Class" />
+        <option value="Python Script" />
         <option value="Class" />
       </list>
     </option>
@@ -65,28 +80,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "/Users/mac_1/workplace3/My-Armory-ForJava/Code-Video/src/main/resources",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "992f5f10f6529e3bdf95f9bbfe46adac"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/mac_1/workplace3/My-Armory-ForJava/Code-Video/src/main/resources&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2551724&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;905d87e740386be8204c59fa465e2618&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Code-Video/src/main/resources" />
@@ -125,17 +140,17 @@
     <treeState>
       <expand>
         <path>
-          <item name="Found 11 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+          <item name="Found 15 services " type="fcff1e1b:RestServiceStructure$RootNode" />
         </path>
         <path>
-          <item name="Found 11 services " type="fcff1e1b:RestServiceStructure$RootNode" />
-          <item name="Code-Video" type="c588b436:RestServiceStructure$ProjectNode" />
+          <item name="Found 15 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+          <item name="Spring-Boot-NewJDK17" type="c588b436:RestServiceStructure$ProjectNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="JUnit.ScrewSqlTest.documentGeneration">
+  <component name="RunManager" selected="Application.functionnalDemo">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -147,90 +162,69 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScrewApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Code-Video" />
+    <configuration name="FunctionalAnnotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.base.functiona.FunctionalAnnotation" />
+      <module name="Java-Base" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.video.screw.conf.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.video.screw.conf" />
-      <option name="MAIN_CLASS_NAME" value="com.video.screw.conf.ScrewApplicationTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ScrewApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Code-Video" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.video.screw.conf.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.video.screw.conf" />
-      <option name="MAIN_CLASS_NAME" value="com.video.screw.conf.ScrewApplicationTests" />
-      <option name="METHOD_NAME" value="contextLoads" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ScrewSqlTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Code-Video" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.video.screw.conf.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.video.screw.conf" />
-      <option name="MAIN_CLASS_NAME" value="com.video.screw.conf.ScrewSqlTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ScrewSqlTest.documentGeneration" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Code-Video" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.video.screw.conf.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.video.screw.conf" />
-      <option name="MAIN_CLASS_NAME" value="com.video.screw.conf.ScrewSqlTest" />
-      <option name="METHOD_NAME" value="documentGeneration" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="springboot-socketio" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xncoding.jwt.Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CodeVideoStarter" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <option name="ACTIVE_PROFILES" />
-      <module name="Code-Video" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.video.CodeVideoStarter" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.video.*" />
+          <option name="PATTERN" value="com.base.functiona.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="Strategize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.base.functiona.Strategize" />
+      <module name="Java-Base" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.base.functiona.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="functionnalDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.video.functionalTest.functionnalDemo" />
+      <module name="Code-Video" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.video.functionalTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testsql" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python-Projrct" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python-Projrct" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python-Projrct/testsql.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="DemoApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
       <module name="Spring-Aop" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springaop.audit.DemoApplication" />
       <method v="2">
@@ -245,30 +239,46 @@
       </method>
     </configuration>
     <configuration name="DemoApplication (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
       <module name="Spring-Boot" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springboot.DemoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="ACTIVE_PROFILES" />
+      <option name="ALTERNATIVE_JRE_PATH" value="corretto-17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="Spring-Boot-NewJDK17" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jdk17.controller.MyApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jdk17.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.ScrewApplicationTests" />
-      <item itemvalue="JUnit.ScrewApplicationTests.contextLoads" />
-      <item itemvalue="JUnit.ScrewSqlTest" />
-      <item itemvalue="JUnit.ScrewSqlTest.documentGeneration" />
-      <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Application.FunctionalAnnotation" />
+      <item itemvalue="Application.Strategize" />
+      <item itemvalue="Application.functionnalDemo" />
+      <item itemvalue="Python.testsql" />
       <item itemvalue="Spring Boot.DemoApplication (1)" />
       <item itemvalue="Spring Boot.DemoApplication (2)" />
       <item itemvalue="Spring Boot.DemoApplication (3)" />
-      <item itemvalue="Spring Boot.CodeVideoStarter" />
+      <item itemvalue="Spring Boot.MyApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ScrewSqlTest.documentGeneration" />
-        <item itemvalue="JUnit.ScrewSqlTest" />
-        <item itemvalue="Spring Boot.CodeVideoStarter" />
-        <item itemvalue="JUnit.ScrewApplicationTests.contextLoads" />
-        <item itemvalue="JUnit.ScrewApplicationTests" />
+        <item itemvalue="Application.functionnalDemo" />
+        <item itemvalue="Application.FunctionalAnnotation" />
+        <item itemvalue="Application.Strategize" />
+        <item itemvalue="Spring Boot.MyApplication" />
+        <item itemvalue="Python.testsql" />
       </list>
     </recent_temporary>
   </component>
@@ -400,7 +410,15 @@
       <workItem from="1672930501449" duration="873000" />
       <workItem from="1672931380256" duration="3552000" />
       <workItem from="1673013600571" duration="894000" />
-      <workItem from="1673096336728" duration="11301000" />
+      <workItem from="1673096336728" duration="15942000" />
+      <workItem from="1673272689971" duration="591000" />
+      <workItem from="1673273289379" duration="1415000" />
+      <workItem from="1673274833763" duration="732000" />
+      <workItem from="1673317047741" duration="8424000" />
+      <workItem from="1673341499923" duration="568000" />
+      <workItem from="1673342129707" duration="4504000" />
+      <workItem from="1673401690664" duration="15347000" />
+      <workItem from="1673618356979" duration="661000" />
     </task>
     <task id="LOCAL-00001" summary="解决Spring Boot 6.x 与Swagger 3.0.0 不兼容问题">
       <created>1652412148954</created>
@@ -458,7 +476,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673013891740</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="code video 数据库文档生成">
+      <created>1673229521228</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1673229521228</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -516,7 +541,8 @@
     <MESSAGE value="code-video第一期" />
     <MESSAGE value="code-video第二期" />
     <MESSAGE value="update README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="update README.md" />
+    <MESSAGE value="code video 数据库文档生成" />
+    <option name="LAST_COMMIT_MESSAGE" value="code video 数据库文档生成" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -532,5 +558,8 @@
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/My_Armory_ForJava$testsql.coverage" NAME="testsql Coverage Results" MODIFIED="1673334481559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python-Projrct" />
   </component>
 </project>
