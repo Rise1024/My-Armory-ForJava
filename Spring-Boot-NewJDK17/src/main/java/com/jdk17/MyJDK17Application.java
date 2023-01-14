@@ -1,4 +1,4 @@
-package com.jdk17.controller;
+package com.jdk17;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @SpringBootApplication
-public class MyApplication {
+public class MyJDK17Application {
 
     @RequestMapping("/")
     String home() {
@@ -15,7 +15,7 @@ public class MyApplication {
     }
 
     public static void main(String[] args){
-        SpringApplication.run(MyApplication.class, args);
+        SpringApplication.run(MyJDK17Application.class, args);
     }
 
 }

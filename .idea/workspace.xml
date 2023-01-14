@@ -5,9 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54e21cdc-5c44-4980-a384-f0aa8d597878" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-NewJDK17/src/main/java/com/jdk17/jdk10/VarTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-NewJDK17/src/main/java/com/jdk17/jdk10/WebSocketTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-NewJDK17/src/main/java/com/jdk17/jdk10/httpClientTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-NewJDK17/src/main/java/com/jdk17/jdk14/NullPointerExceptionEnhancer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-NewJDK17/src/main/java/com/jdk17/jdk14/SwitchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-NewJDK17/src/main/java/com/jdk17/jdk15/TxtTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-NewJDK17/src/main/java/com/jdk17/jdk16/InstanceofTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-NewJDK17/src/main/java/com/jdk17/jdk16/RecordTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-NewJDK17/src/main/java/com/jdk17/jdk16/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-NewJDK17/src/main/java/com/jdk17/jdk9/MGPrivateInterfaceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-NewJDK17/target/classes/com/jdk17/MyJDK17Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-NewJDK17/target/classes/com/jdk17/jdk10/VarTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-NewJDK17/target/classes/com/jdk17/jdk10/WebSocketTest$WebSocketListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-NewJDK17/target/classes/com/jdk17/jdk10/WebSocketTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-NewJDK17/target/classes/com/jdk17/jdk10/httpClientTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-NewJDK17/target/classes/com/jdk17/jdk14/NullPointerExceptionEnhancer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-NewJDK17/target/classes/com/jdk17/jdk14/SwitchTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-NewJDK17/target/classes/com/jdk17/jdk15/TxtTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-NewJDK17/target/classes/com/jdk17/jdk16/InstanceofTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-NewJDK17/target/classes/com/jdk17/jdk16/RecordTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-NewJDK17/target/classes/com/jdk17/jdk16/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-NewJDK17/target/classes/com/jdk17/jdk9/MGPrivateInterfaceTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code-Video/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Code-Video/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Code-Video/src/main/java/com/video/javaOutline/conllection/video-list.md" beforeDir="false" afterPath="$PROJECT_DIR$/Code-Video/src/main/java/com/video/javaOutline/conllection/video-list.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-NewJDK17/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Boot-NewJDK17/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-NewJDK17/src/main/java/com/jdk17/controller/MyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Boot-NewJDK17/src/main/java/com/jdk17/MyJDK17Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-NewJDK17/src/main/java/com/jdk17/http/HttpclientTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-NewJDK17/target/classes/com/jdk17/controller/MyApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-NewJDK17/target/classes/com/jdk17/http/HttpclientTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-NewJDK17/target/classes/com/jdk17/http/HttpclientTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +160,7 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Application.functionnalDemo">
+  <component name="RunManager" selected="Application.NullPointerExceptionEnhancer">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -145,12 +172,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunctionalAnnotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.base.functiona.FunctionalAnnotation" />
-      <module name="Java-Base" />
+    <configuration name="MyJDK17Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="corretto-17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.jdk17.MyJDK17Application" />
+      <module name="Spring-Boot-NewJDK17" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.base.functiona.*" />
+          <option name="PATTERN" value="com.jdk17.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,12 +187,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Strategize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.base.functiona.Strategize" />
-      <module name="Java-Base" />
+    <configuration name="NullPointerExceptionEnhancer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jdk17.jdk14.NullPointerExceptionEnhancer" />
+      <module name="Spring-Boot-NewJDK17" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.base.functiona.*" />
+          <option name="PATTERN" value="com.jdk17.jdk14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecordTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jdk17.jdk16.RecordTest" />
+      <module name="Spring-Boot-NewJDK17" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jdk17.jdk16.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VarTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jdk17.jdk10.VarTest" />
+      <module name="Spring-Boot-NewJDK17" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jdk17.jdk10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,28 +238,6 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="testsql" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python-Projrct" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python-Projrct" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python-Projrct/testsql.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
     <configuration name="DemoApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="ACTIVE_PROFILES" />
@@ -229,39 +262,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <option name="ACTIVE_PROFILES" />
-      <option name="ALTERNATIVE_JRE_PATH" value="corretto-17" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+    <configuration name="MyJDK17Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="Spring-Boot-NewJDK17" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jdk17.controller.MyApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jdk17.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jdk17.MyJDK17Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FunctionalAnnotation" />
-      <item itemvalue="Application.Strategize" />
+      <item itemvalue="Application.NullPointerExceptionEnhancer" />
+      <item itemvalue="Application.RecordTest" />
+      <item itemvalue="Application.VarTest" />
+      <item itemvalue="Application.MyJDK17Application" />
       <item itemvalue="Application.functionnalDemo" />
-      <item itemvalue="Python.testsql" />
+      <item itemvalue="Spring Boot.MyJDK17Application" />
       <item itemvalue="Spring Boot.DemoApplication (1)" />
       <item itemvalue="Spring Boot.DemoApplication (2)" />
       <item itemvalue="Spring Boot.DemoApplication (3)" />
-      <item itemvalue="Spring Boot.MyApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NullPointerExceptionEnhancer" />
+        <item itemvalue="Application.MyJDK17Application" />
+        <item itemvalue="Application.RecordTest" />
+        <item itemvalue="Application.VarTest" />
         <item itemvalue="Application.functionnalDemo" />
-        <item itemvalue="Application.FunctionalAnnotation" />
-        <item itemvalue="Application.Strategize" />
-        <item itemvalue="Spring Boot.MyApplication" />
-        <item itemvalue="Python.testsql" />
       </list>
     </recent_temporary>
   </component>
@@ -402,7 +427,7 @@
       <workItem from="1673342129707" duration="4504000" />
       <workItem from="1673401690664" duration="15347000" />
       <workItem from="1673618356979" duration="5217000" />
-      <workItem from="1673623671908" duration="401000" />
+      <workItem from="1673623671908" duration="10791000" />
     </task>
     <task id="LOCAL-00001" summary="解决Spring Boot 6.x 与Swagger 3.0.0 不兼容问题">
       <created>1652412148954</created>
@@ -474,7 +499,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673623453958</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="格式整理">
+      <created>1673624159927</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1673624159927</updated>
+    </task>
+    <task id="LOCAL-00012" summary="code video java8到java17的特性">
+      <created>1673708148248</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1673708148248</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -534,7 +573,9 @@
     <MESSAGE value="update README.md" />
     <MESSAGE value="code video 数据库文档生成" />
     <MESSAGE value="code video List" />
-    <option name="LAST_COMMIT_MESSAGE" value="code video List" />
+    <MESSAGE value="格式整理" />
+    <MESSAGE value="code video java8到java17的特性" />
+    <option name="LAST_COMMIT_MESSAGE" value="code video java8到java17的特性" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
