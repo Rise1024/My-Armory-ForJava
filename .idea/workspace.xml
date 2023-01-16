@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54e21cdc-5c44-4980-a384-f0aa8d597878" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Spring-Boot-NewJDK17/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code-Video/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Code-Video/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-Security/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Security/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code-Video/src/main/java/com/video/functionalTest/functionnalDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Code-Video/src/main/java/com/video/functionalTest/functionnalDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -400,7 +399,7 @@
       <workItem from="1673342129707" duration="4504000" />
       <workItem from="1673401690664" duration="15347000" />
       <workItem from="1673618356979" duration="5217000" />
-      <workItem from="1673623671908" duration="11344000" />
+      <workItem from="1673623671908" duration="22047000" />
     </task>
     <task id="LOCAL-00001" summary="解决Spring Boot 6.x 与Swagger 3.0.0 不兼容问题">
       <created>1652412148954</created>
@@ -500,7 +499,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673709065104</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="code video java8到java17的特性 README整理">
+      <created>1673709623315</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1673709623315</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -562,7 +568,8 @@
     <MESSAGE value="code video List" />
     <MESSAGE value="格式整理" />
     <MESSAGE value="code video java8到java17的特性" />
-    <option name="LAST_COMMIT_MESSAGE" value="code video java8到java17的特性" />
+    <MESSAGE value="code video java8到java17的特性 README整理" />
+    <option name="LAST_COMMIT_MESSAGE" value="code video java8到java17的特性 README整理" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
