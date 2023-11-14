@@ -7,32 +7,36 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Spring-Boot-NewJDK17" />
+        <module name="Spring-Boot-Crossdomain (2)" />
         <module name="Spring-Boot-Swagger2" />
         <module name="Java-Base" />
         <module name="Spring-Boot-Netty" />
+        <module name="Spring-Boot-ES" />
+        <module name="Spring-Boot-Security" />
+        <module name="Spring-Boot-Shiro" />
+        <module name="Spring-Boot" />
+        <module name="Spring-Boot-Crossdomain" />
+        <module name="Spring-Bean" />
+        <module name="Question-Of-The-Day" />
+        <module name="Spring-Boot-Quartz" />
+        <module name="Spring-Boot-NewJDK21" />
+        <module name="Spring-Boot-NewJDK17" />
+        <module name="Spring-Boot-Crossdomain (1)" />
+        <module name="Spring-Boot-Docker" />
         <module name="Spring-Aop" />
         <module name="Java-Security" />
         <module name="Spring-Boot-Thymeleaf" />
         <module name="Leetcode" />
-        <module name="Spring-Boot-ES" />
         <module name="Java-IO" />
-        <module name="Spring-Boot-Security" />
-        <module name="Spring-Boot-Shiro" />
         <module name="Spring-Boot-Webscoket" />
-        <module name="Spring-Boot" />
         <module name="Spring-Boot-Log" />
-        <module name="Spring-Bean" />
-        <module name="Question-Of-The-Day" />
         <module name="Hystrix-Limiter" />
         <module name="Code-Refactoring" />
         <module name="Code-Video" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="Hystrix-Model" target="8" />
-      <module name="Spring-Cloud-Hystrix" target="8" />
-      <module name="springboot-socketio" target="1.8" />
+    <bytecodeTargetLevel target="21">
+      <module name="Spring-Boot-SAML" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -40,21 +44,31 @@
       <module name="Code-Refactoring" options="-parameters" />
       <module name="Code-Video" options="-parameters" />
       <module name="Hystrix-Limiter" options="-parameters" />
-      <module name="Hystrix-Model" options="-parameters" />
+      <module name="Java-Base" options="" />
+      <module name="Java-IO" options="" />
+      <module name="Java-Security" options="" />
+      <module name="Leetcode" options="" />
+      <module name="Question-Of-The-Day" options="" />
       <module name="Spring-Aop" options="-parameters" />
       <module name="Spring-Bean" options="-parameters" />
       <module name="Spring-Boot" options="-parameters" />
+      <module name="Spring-Boot-Crossdomain" options="-parameters" />
+      <module name="Spring-Boot-Crossdomain (1)" options="-parameters" />
+      <module name="Spring-Boot-Crossdomain (2)" options="-parameters" />
+      <module name="Spring-Boot-Docker" options="-parameters" />
       <module name="Spring-Boot-ES" options="-parameters" />
       <module name="Spring-Boot-Log" options="-parameters" />
       <module name="Spring-Boot-Netty" options="-parameters" />
       <module name="Spring-Boot-NewJDK17" options="-parameters" />
+      <module name="Spring-Boot-NewJDK21" options="-parameters" />
+      <module name="Spring-Boot-Quartz" options="-parameters" />
+      <module name="Spring-Boot-SAML" options="" />
       <module name="Spring-Boot-Security" options="-parameters" />
       <module name="Spring-Boot-Shiro" options="-parameters" />
       <module name="Spring-Boot-Swagger2" options="-parameters" />
       <module name="Spring-Boot-Thymeleaf" options="-parameters" />
       <module name="Spring-Boot-Webscoket" options="-parameters" />
-      <module name="Spring-Cloud-Hystrix" options="" />
-      <module name="springboot-socketio" options="-parameters" />
+      <module name="Spring-Cloud-Parent" options="" />
     </option>
   </component>
 </project>

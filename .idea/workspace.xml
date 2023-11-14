@@ -1,12 +1,518 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Code-Video:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54e21cdc-5c44-4980-a384-f0aa8d597878" name="Default Changelist" comment="">
+    <list default="true" id="54e21cdc-5c44-4980-a384-f0aa8d597878" name="Default Changelist" comment="functionnal函数接口整理">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Code_Video_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/qaplug_profiles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code-Video/dumps/dump_test.hprof" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code-Video/dumps/java_pid14144.hprof" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code-Video/dumps/java_pid14166.hprof" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code-Video/dumps/java_pid14166.hprof.analysis/backref.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code-Video/dumps/java_pid14166.hprof.analysis/backreflp.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code-Video/dumps/java_pid14166.hprof.analysis/check.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code-Video/dumps/java_pid14166.hprof.analysis/dominator.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code-Video/dumps/java_pid14166.hprof.analysis/dominator.off" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code-Video/dumps/java_pid14166.hprof.analysis/hprof.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code-Video/dumps/java_pid14166.hprof.analysis/initial.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code-Video/dumps/java_pid14166.hprof.analysis/instances.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code-Video/dumps/java_pid14166.hprof.analysis/main.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code-Video/dumps/java_pid14166.hprof.analysis/map.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code-Video/dumps/java_pid14166.hprof.analysis/outgoing.dat0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code-Video/dumps/java_pid14166.hprof.analysis/outgoing.dat1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code-Video/dumps/java_pid14166.hprof.analysis/outgoing.dat10" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code-Video/dumps/java_pid14166.hprof.analysis/outgoing.dat2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code-Video/dumps/java_pid14166.hprof.analysis/outgoing.dat3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code-Video/dumps/java_pid14166.hprof.analysis/outgoing.dat4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code-Video/dumps/java_pid14166.hprof.analysis/outgoing.dat5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code-Video/dumps/java_pid14166.hprof.analysis/outgoing.dat6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code-Video/dumps/java_pid14166.hprof.analysis/outgoing.dat7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code-Video/dumps/java_pid14166.hprof.analysis/outgoing.dat8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code-Video/dumps/java_pid14166.hprof.analysis/outgoing.dat9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code-Video/dumps/java_pid14166.hprof.analysis/outgoing.off0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code-Video/dumps/java_pid14166.hprof.analysis/outgoing.off1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code-Video/dumps/java_pid14166.hprof.analysis/outgoing.off2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code-Video/dumps/java_pid14166.hprof.analysis/retained.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code-Video/dumps/java_pid14166.hprof.analysis/sets.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code-Video/src/main/java/com/video/hashedWheelTimer/multiStoreyWheelTimer/KafkaTimer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code-Video/src/main/java/com/video/hashedWheelTimer/multiStoreyWheelTimer/SystemTimer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code-Video/src/main/java/com/video/hashedWheelTimer/multiStoreyWheelTimer/TimeUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code-Video/src/main/java/com/video/hashedWheelTimer/multiStoreyWheelTimer/TimerTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code-Video/src/main/java/com/video/hashedWheelTimer/multiStoreyWheelTimer/TimerTaskEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code-Video/src/main/java/com/video/hashedWheelTimer/multiStoreyWheelTimer/TimerTaskList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code-Video/src/main/java/com/video/hashedWheelTimer/multiStoreyWheelTimer/TimingWheel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code-Video/src/main/java/com/video/hashedWheelTimer/multipleRoundsWheelTimer/HashedWheelTimer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code-Video/src/main/java/com/video/hashedWheelTimer/multipleRoundsWheelTimer/Timeout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code-Video/src/main/java/com/video/hashedWheelTimer/multipleRoundsWheelTimer/Timer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code-Video/src/main/java/com/video/hashedWheelTimer/multipleRoundsWheelTimer/TimerTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code-Video/src/main/java/com/video/javaOutline/conllection/list/ArrayLinkedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code-Video/src/main/java/com/video/jvm/JvmTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code-Video/src/main/java/com/video/jvm/OomData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code-Video/src/test/java/com/video/hashedWheelTimer/service/TaskServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/datastructure/collection/TestSetToList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/extendstest/functiona/extendstest/AbsClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/extendstest/functiona/extendstest/AbsZiClasss.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/extendstest/functiona/extendstest/ReflectClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/extendstest/functiona/extendstest/data/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/extendstest/functiona/extendstest/execption/RuntimeTestexecption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/extendstest/functiona/extendstest/execption/TestExceptionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/extendstest/functiona/extendstest/execption/TestExecption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/extendstest/functiona/keyword/StaticDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/io/bio/BioClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/io/bio/BioServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/lock/jucAqs/LockSupportDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/lock/queue/BlockingQueueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/lock/queue/DelayQueueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/lock/threadSafety/Atomic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/lock/threadSafety/AtomicReference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/lock/threadSafety/SynchronizedDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/lock/threadbase/ThreadBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/tools/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leetcode/src/main/java/com/leetcode/list/CircularlinkedlistDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leetcode/src/main/java/com/leetcode/list/Linkedlist.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leetcode/src/main/java/com/leetcode/list/OnewayLinkedlistDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leetcode/src/main/java/com/leetcode/list/TwowaylinkedlistDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leetcode/src/main/java/com/leetcode/map/HashMapdemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Question-Of-The-Day/src/main/resources/oom/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Aop/src/main/java/com/example/springaop/conf/AuditAopConf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-Crossdomain/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-Crossdomain/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-Crossdomain/src/main/java/org/example/cross/conf/AliToTinetServiceContextInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-Crossdomain/src/main/java/org/example/cross/conf/CloudCallCenterWebConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-Crossdomain/src/main/java/org/example/cross/conf/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-Crossdomain/src/main/java/org/example/cross/conf/MyCorsFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-Crossdomain/src/main/java/org/example/cross/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-Crossdomain/src/main/java/org/example/cross/controller/data/TestData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-Crossdomain2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-Crossdomain2/src/main/java/org/example/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-Crossdomain2/src/main/java/org/example/cross/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-Crossdomain2/src/main/java/org/example/cross/controller/data/TestData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-Crossdomain2/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-Crossdomain2/target/classes/org/example/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-Crossdomain2/target/classes/org/example/cross/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-Crossdomain2/target/classes/org/example/cross/controller/data/TestData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-Docker/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-Docker/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-Docker/src/main/java/com/docker/controller/DockerTestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-ES/src/main/java/com/es/servvice/EsDataService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-Netty/src/main/java/com/netty/entangle/NettyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-Netty/src/main/java/com/netty/entangle/NettyClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-Netty/src/main/java/com/netty/entangle/NettyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-Netty/src/main/java/com/netty/entangle/NettyServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-NewJDK21/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-NewJDK21/src/main/java/com/app/MyJDK21Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-NewJDK21/src/main/java/com/newfeatures/Instanceof.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-NewJDK21/src/main/java/com/newfeatures/SequencedCollectionT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-NewJDK21/src/main/java/com/newfeatures/StringTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-NewJDK21/src/main/java/com/performance/ThreadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-NewJDK21/src/main/java/com/performance/VirtualThreadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-NewJDK21/src/main/java/com/virtual_thread/ExecutorsnewVirtualThreadPerTaskExecutorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-NewJDK21/src/main/java/com/virtual_thread/ThreadofVirtualTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-NewJDK21/src/main/java/com/virtual_thread/ThreadofVirtualfactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-NewJDK21/src/main/java/com/virtual_thread/ThreadstartVirtualThreadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-Quartz/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-Quartz/src/main/java/com/quartz/task/JobTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-ShardingSphere/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-ShardingSphere/src/main/java/org/example/ShardMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-ShardingSphere/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-Swagger2/src/main/java/com/example/swagger/controller/UserController2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_60.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_13_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_13_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_13_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_13_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_11_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_13_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_11_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_13_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_11_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_13_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_15_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_core_4_1_22.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_classgraph_classgraph_4_8_83.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_core_1_5_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_core_1_8_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_bean_validators_3_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_boot_starter_3_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_3_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_data_rest_3_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_oas_3_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_3_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_3_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_3_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_webflux_3_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_webmvc_3_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_3_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_3_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_3_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_core_v3_swagger_annotations_2_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_core_v3_swagger_models_2_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_20.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_20.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_11_22.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_13_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_17_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_13_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_17_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_cache_1_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_config_core_1_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_config_ogdl_1_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_cipher_1_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_core_1_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_hash_1_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_event_1_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_lang_1_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_spring_1_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_web_1_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_46.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_60.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_62.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_60.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_62.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_46.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_60.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_62.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_69.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_69.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcutil_jdk15on_1_69.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jakarta_el_3_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_3_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_passay_passay_1_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_20.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_36.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_36.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_3_12_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_6_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_6_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_3_12_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_6_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_3_12_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_6_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_3_12_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_6_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_6_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_3_12_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_6_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_6_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_3_12_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_6_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_3_12_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_6_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_6_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_3_12_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_6_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_6_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_3_12_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_3_12_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_6_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_6_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_3_12_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_6_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_6_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_websocket_2_6_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_2_0_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_2_0_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_3_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_3_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_3_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_15_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_3_18.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_3_19.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_15_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_3_18.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_3_19.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_15_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_3_18.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_3_19.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_15_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_3_18.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_3_19.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_15_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_3_18.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_3_19.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_15_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_18.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_19.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_5_3_19.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_15_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_3_18.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_3_19.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_15_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_18.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_19.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_websocket_5_3_19.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_26.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_29.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code-Video/src/main/java/com/video/functionalTest/functionnalDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Code-Video/src/main/java/com/video/functionalTest/functionnalDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code-Video/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Code-Video/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code-Video/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Code-Video/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code-Video/src/main/java/com/video/googleLimit/service/GuavaRateLimiterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Code-Video/src/main/java/com/video/googleLimit/service/GuavaRateLimiterService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code-Video/src/main/java/com/video/javaOutline/conllection/list/ArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Code-Video/src/main/java/com/video/javaOutline/conllection/list/ArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code-Video/src/main/java/com/video/javaOutline/conllection/video-list.md" beforeDir="false" afterPath="$PROJECT_DIR$/Code-Video/src/main/java/com/video/javaOutline/conllection/video-list.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code-Video/target/classes/com/video/CodeVideoStarter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code-Video/target/classes/com/video/functionalTest/functionnalDemo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code-Video/target/classes/com/video/functionalTest/functionnalDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code-Video/target/classes/com/video/functionalTest/test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code-Video/target/classes/com/video/functionalTest/test2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code-Video/target/classes/com/video/googleLimit/controller/RateLimiterTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code-Video/target/classes/com/video/googleLimit/service/GuavaRateLimiterService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code-Video/target/classes/com/video/javaOutline/conllection/list/ListTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code-Video/target/classes/com/video/screw/conf/ScrewSqlTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code-Video/target/classes/com/video/smartdoc/controller/SmartController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code-Video/target/classes/com/video/smartdoc/data/SmartData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Base/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/src/main/java/bug/ArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Base/src/main/java/bug/ArrayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/basicType/CompareWithType.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/tools/basicType/CompareWithType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/collection/CollectionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/datastructure/collection/CollectionDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/datastructure/array/ArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/datastructure/collection/array/ArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/datastructure/arrayDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/datastructure/collection/arrayDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/extendstest/FuClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/extendstest/functiona/extendstest/FuClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/extendstest/ZiClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/extendstest/functiona/extendstest/ZiClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/extendstest/ZiClass1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/extendstest/functiona/extendstest/ZiClass1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/functiona/FunctionalAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/extendstest/functiona/FunctionalAnnotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/functiona/FunctionalInterfaceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/extendstest/functiona/FunctionalInterfaceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/functiona/Strategize.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/extendstest/functiona/Strategize.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/jucAqs/ConditionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/lock/jucAqs/ConditionDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/jucAqs/CountDownLatchDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/lock/jucAqs/CountDownLatchDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/jucAqs/CyclicBarrierDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/lock/jucAqs/CyclicBarrierDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/jucAqs/ReentrantLockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/lock/jucAqs/ReentrantLockDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/jucAqs/ReentrantReadWriteLockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/lock/jucAqs/ReentrantReadWriteLockDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/jucAqs/SemaphoreDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/lock/jucAqs/SemaphoreDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/jucAqs/StampedLockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/lock/jucAqs/StampedLockDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/keyword/FinalDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/extendstest/functiona/keyword/FinalDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/keyword/StaticDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/regular/RegularDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/tools/regular/RegularDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/threadPoll/NamedThreadFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/lock/threadPoll/NamedThreadFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/threadPoll/ThreadPollDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/lock/threadPoll/ThreadPollDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/threadSafety/Atomic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/threadSafety/SynchronizedDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/threadSafety/ThreadLocalDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/lock/threadSafety/ThreadLocalDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/src/main/java/queue/WaitQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Base/src/main/java/com/base/lock/queue/WaitQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/target/classes/bug/ArrayTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/target/classes/com/base/basicType/CompareWithType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/target/classes/com/base/collection/CollectionDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/target/classes/com/base/datastructure/array/ArrayList$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/target/classes/com/base/datastructure/array/ArrayList$ArrayListSpliterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/target/classes/com/base/datastructure/array/ArrayList$Itr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/target/classes/com/base/datastructure/array/ArrayList$ListItr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/target/classes/com/base/datastructure/array/ArrayList$SubList$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/target/classes/com/base/datastructure/array/ArrayList$SubList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/target/classes/com/base/datastructure/array/ArrayList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/target/classes/com/base/datastructure/arrayDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/target/classes/com/base/extendstest/FuClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/target/classes/com/base/extendstest/ZiClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/target/classes/com/base/extendstest/ZiClass1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/target/classes/com/base/functiona/Functional.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/target/classes/com/base/functiona/FunctionalAnnotation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/target/classes/com/base/functiona/FunctionalInterfaceTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/target/classes/com/base/functiona/FunctionalInterfaceTest$Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/target/classes/com/base/functiona/FunctionalInterfaceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/target/classes/com/base/functiona/FunctionalNoAnn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/target/classes/com/base/functiona/Soft.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/target/classes/com/base/functiona/Strategize$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/target/classes/com/base/functiona/Strategize.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/target/classes/com/base/functiona/Strategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/target/classes/com/base/functiona/Unrelated.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/target/classes/com/base/jucAqs/ConditionDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/target/classes/com/base/jucAqs/CountDownLatchDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/target/classes/com/base/jucAqs/CyclicBarrierDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/target/classes/com/base/jucAqs/ReentrantLockDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/target/classes/com/base/jucAqs/ReentrantReadWriteLockDemo$Data.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/target/classes/com/base/jucAqs/ReentrantReadWriteLockDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/target/classes/com/base/jucAqs/SemaphoreDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/target/classes/com/base/jucAqs/StampedLockDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/target/classes/com/base/keyword/FinalDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/target/classes/com/base/keyword/StaticDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/target/classes/com/base/regular/RegularDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/target/classes/com/base/threadPoll/NamedThreadFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/target/classes/com/base/threadPoll/ThreadPollDemo$work.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/target/classes/com/base/threadPoll/ThreadPollDemo$work1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/target/classes/com/base/threadPoll/ThreadPollDemo$work2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/target/classes/com/base/threadPoll/ThreadPollDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/target/classes/com/base/threadSafety/Atomic$Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/target/classes/com/base/threadSafety/Atomic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/target/classes/com/base/threadSafety/SynchronizedDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/target/classes/com/base/threadSafety/ThreadLocalDemo$SecurityContextHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/target/classes/com/base/threadSafety/ThreadLocalDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Base/target/classes/queue/WaitQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/com/leetcode/array/sparsearray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/com/leetcode/array/sparsearray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Aop/Spring-Aop.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Aop/src/main/java/com/example/springaop/SpringAopDemoStarter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Aop/src/main/java/com/example/springaop/SpringAopDemoStarter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Aop/src/main/java/com/example/springaop/audit/AuditAop.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Aop/src/main/java/com/example/springaop/audit/AuditAop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Aop/src/main/java/com/example/springaop/audit/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Boot-Quartz/src/main/java/com/quartz/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Aop/src/main/java/com/example/springaop/audit/LogNameEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Aop/src/main/java/com/example/springaop/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Aop/src/main/java/com/example/springaop/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Aop/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Aop/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Aop/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Aop/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Aop/target/classes/com/example/springaop/SpringAopDemoStarter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Aop/target/classes/com/example/springaop/audit/ApiResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Aop/target/classes/com/example/springaop/audit/Audit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Aop/target/classes/com/example/springaop/audit/AuditAop$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Aop/target/classes/com/example/springaop/audit/AuditAop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Aop/target/classes/com/example/springaop/audit/AuditFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Aop/target/classes/com/example/springaop/audit/AuditMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Aop/target/classes/com/example/springaop/audit/DemoApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Aop/target/classes/com/example/springaop/audit/JSONUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Aop/target/classes/com/example/springaop/audit/LogNameEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Aop/target/classes/com/example/springaop/audit/ResponseContent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Aop/target/classes/com/example/springaop/controller/TestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Aop/target/classes/com/example/springaop/filter/HttpServletContent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Aop/target/classes/com/example/springaop/filter/InitHttpServletContentFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Aop/target/classes/com/example/springaop/sourcecode/AbstractAutoProxyCreator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Aop/target/classes/com/example/springaop/sourcecode/AnnotationAwareAspectJAutoProxyCreator$BeanFactoryAspectJAdvisorsBuilderAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Aop/target/classes/com/example/springaop/sourcecode/AnnotationAwareAspectJAutoProxyCreator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Aop/target/classes/com/example/springaop/sourcecode/AspectJAutoProxyRegistrar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Aop/target/classes/com/example/springaop/sourcecode/BeanFactoryAware.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Aop/target/classes/com/example/springaop/sourcecode/CglibAopProxy$AdvisedDispatcher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Aop/target/classes/com/example/springaop/sourcecode/CglibAopProxy$CglibMethodInvocation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Aop/target/classes/com/example/springaop/sourcecode/CglibAopProxy$DynamicAdvisedInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Aop/target/classes/com/example/springaop/sourcecode/CglibAopProxy$DynamicUnadvisedExposedInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Aop/target/classes/com/example/springaop/sourcecode/CglibAopProxy$DynamicUnadvisedInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Aop/target/classes/com/example/springaop/sourcecode/CglibAopProxy$EqualsInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Aop/target/classes/com/example/springaop/sourcecode/CglibAopProxy$FixedChainStaticTargetInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Aop/target/classes/com/example/springaop/sourcecode/CglibAopProxy$HashCodeInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Aop/target/classes/com/example/springaop/sourcecode/CglibAopProxy$ProxyCallbackFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Aop/target/classes/com/example/springaop/sourcecode/CglibAopProxy$SerializableNoOp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Aop/target/classes/com/example/springaop/sourcecode/CglibAopProxy$StaticDispatcher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Aop/target/classes/com/example/springaop/sourcecode/CglibAopProxy$StaticUnadvisedExposedInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Aop/target/classes/com/example/springaop/sourcecode/CglibAopProxy$StaticUnadvisedInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Aop/target/classes/com/example/springaop/sourcecode/CglibAopProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Aop/target/classes/com/example/springaop/sourcecode/EnableAspectJAutoProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Aop/target/classes/com/example/springaop/sourcecode/JdkDynamicAopProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Aop/target/classes/com/example/springaop/sourcecode/ReflectiveMethodInvocation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Aop/target/classes/com/example/springaop/sourcecode/SmartInstantiationAwareBeanPostProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Bean/Spring-Bean.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Bean/target/classes/com/example/springbean/lifeaycle/config/WebConfigTestTwo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Bean/target/classes/com/example/springbean/lifeaycle/data/UserTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Bean/target/classes/com/example/springbean/lifeaycle/data/UserTest1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Bean/target/classes/com/example/springbean/lifeaycle/data/UserTest2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Bean/target/classes/com/example/springbean/lifeaycle/service/MyBeanInstantiationPostProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Bean/target/classes/com/example/springbean/lifeaycle/service/MyBeanPostProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Bean/target/classes/com/example/springbean/regist/selector/MyImportSelector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-ES/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Boot-ES/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-ES/src/main/java/com/es/conf/ElasticSearchConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Boot-ES/src/main/java/com/es/conf/ElasticSearchConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Log/Spring-Boot-Log.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Log/target/classes/com/example/log/desensitization/LogDemoApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Log/target/classes/com/example/log/desensitization/controller/TestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Log/target/classes/com/example/log/desensitization/logbackadvice/DesensitizationAppender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Log/target/classes/com/example/log/desensitization/logbackadvice/LcyConsoleAppender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Log/target/classes/com/example/log/desensitization/logbackadvice/LcyRollingFileAppender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Log/target/classes/com/example/log/desensitization/utils/DesensitizationUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Log/target/classes/com/example/log/desensitization/utils/YmlUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Netty/src/main/java/com/netty/entangle/client/ClientChannelInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Netty/src/main/java/com/netty/entangle/client/PeClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Netty/src/main/java/com/netty/entangle/client/PeClientHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Netty/src/main/java/com/netty/entangle/server/PeServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Netty/src/main/java/com/netty/entangle/server/PeServerHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Netty/src/main/java/com/netty/entangle/server/ServerChannelInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Netty/target/classes/com/netty/entangle/client/ClientChannelInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Netty/target/classes/com/netty/entangle/client/PeClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Netty/target/classes/com/netty/entangle/client/PeClientHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Netty/target/classes/com/netty/entangle/server/PeServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Netty/target/classes/com/netty/entangle/server/PeServerHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Netty/target/classes/com/netty/entangle/server/ServerChannelInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Netty/target/classes/com/netty/utils/JsonUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Netty/target/classes/com/netty/webscoket/client/ClientMain$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Netty/target/classes/com/netty/webscoket/client/ClientMain$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Netty/target/classes/com/netty/webscoket/client/ClientMain$3$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Netty/target/classes/com/netty/webscoket/client/ClientMain$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Netty/target/classes/com/netty/webscoket/client/ClientMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Netty/target/classes/com/netty/webscoket/client/WebSocketClientHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Netty/target/classes/com/netty/webscoket/server/AttributeKeys.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Netty/target/classes/com/netty/webscoket/server/Message.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Netty/target/classes/com/netty/webscoket/server/PersonJ$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Netty/target/classes/com/netty/webscoket/server/PersonJ$Person$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Netty/target/classes/com/netty/webscoket/server/PersonJ$Person$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Netty/target/classes/com/netty/webscoket/server/PersonJ$Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Netty/target/classes/com/netty/webscoket/server/PersonJ$PersonOrBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Netty/target/classes/com/netty/webscoket/server/PersonJ.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Netty/target/classes/com/netty/webscoket/server/PreflightHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Netty/target/classes/com/netty/webscoket/server/ServerMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Netty/target/classes/com/netty/webscoket/server/SockjsConnectionEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Netty/target/classes/com/netty/webscoket/server/WebSocketChannelInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Netty/target/classes/com/netty/webscoket/server/WebSocketServerEventsHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Netty/target/classes/com/netty/webscoket/server/WebSocketServerHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-NewJDK17/src/main/java/com/jdk17/jdk14/NullPointerExceptionEnhancer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Boot-NewJDK17/src/main/java/com/jdk17/jdk14/NullPointerExceptionEnhancer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-NewJDK17/target/classes/com/jdk17/MyJDK17Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-NewJDK17/target/classes/com/jdk17/jdk10/VarTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-NewJDK17/target/classes/com/jdk17/jdk10/WebSocketTest$WebSocketListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-NewJDK17/target/classes/com/jdk17/jdk10/WebSocketTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-NewJDK17/target/classes/com/jdk17/jdk10/httpClientTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-NewJDK17/target/classes/com/jdk17/jdk14/NullPointerExceptionEnhancer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-NewJDK17/target/classes/com/jdk17/jdk14/SwitchTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-NewJDK17/target/classes/com/jdk17/jdk15/TxtTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-NewJDK17/target/classes/com/jdk17/jdk16/InstanceofTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-NewJDK17/target/classes/com/jdk17/jdk16/RecordTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-NewJDK17/target/classes/com/jdk17/jdk16/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-NewJDK17/target/classes/com/jdk17/jdk9/MGPrivateInterfaceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Security/Spring-Boot-Security.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Security/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Boot-Security/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Security/src/main/java/com/example/security/conf/ActuatorWebSecurityConfigurationAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Boot-Security/src/main/java/com/example/security/conf/ActuatorWebSecurityConfigurationAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Security/src/main/java/com/example/security/conf/UserDetailsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Boot-Security/src/main/java/com/example/security/conf/UserDetailsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Security/src/main/java/com/example/security/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Boot-Security/src/main/java/com/example/security/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Security/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Boot-Security/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Security/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Boot-Security/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Security/target/classes/com/example/security/DemoApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Security/target/classes/com/example/security/conf/ActuatorWebSecurityConfigurationAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Security/target/classes/com/example/security/conf/UserDetailsConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Security/target/classes/com/example/security/controller/TestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Security/target/classes/com/example/security/data/MyUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Shiro/Spring-Boot-Shiro.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Swagger2/Spring-Boot-Swagger2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Swagger2/src/main/java/com/example/swagger/conf/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Boot-Swagger2/src/main/java/com/example/swagger/conf/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Swagger2/src/main/java/com/example/swagger/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Boot-Swagger2/src/main/java/com/example/swagger/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Swagger2/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Boot-Swagger2/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Swagger2/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Boot-Swagger2/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Swagger2/target/classes/com/example/swagger/conf/SwaggerConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Boot-Swagger2/target/classes/com/example/swagger/conf/SwaggerConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Swagger2/target/classes/com/example/swagger/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Boot-Swagger2/target/classes/com/example/swagger/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-Webscoket/Spring-Boot-Webscoket.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot/Spring-Boot.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot/target/classes/com/example/springboot/DemoApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot/target/classes/com/example/springboot/Schedul/ScheduleTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot/target/classes/com/example/springboot/config/LoggingAbortPolicy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot/target/classes/com/example/springboot/config/TaskConfiguration$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot/target/classes/com/example/springboot/config/TaskConfiguration$LogAndMetricsErrorHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot/target/classes/com/example/springboot/config/TaskConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot/target/classes/com/example/springboot/data/UserTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot/target/classes/com/example/springboot/data/UserTest1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot/target/classes/com/example/springboot/data/UserTest2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot/target/classes/com/example/springboot/sourcecode/SpringApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screw/自定义文件名称.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +525,8 @@
         <option value="Kotlin File" />
         <option value="package-info" />
         <option value="Interface" />
-        <option value="JUnit5 Test Class" />
         <option value="Python Script" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -39,6 +545,11 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/AbstractList.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/openjdk-21/Contents/Home/lib/src.zip!/java.base/java/lang/Thread.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/openjdk-21/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/Executors.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="HttpClientSelectedEnvironments">
+    <file url="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/get-requests.http" environment="test" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -46,13 +557,15 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="$USER_HOME$/resources/apache-maven-3.3.9/repository" />
+        <option name="localRepository" value="$MAVEN_REPOSITORY$" />
         <option name="mavenHome" value="$USER_HOME$/resources/apache-maven-3.3.9" />
-        <option name="useMavenConfig" value="true" />
         <option name="userSettingsFile" value="$USER_HOME$/resources/apache-maven-3.3.9/conf/settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="25Uj43GUyNskj3qyCDqxci7W0uS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -61,35 +574,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "jdk.selected.JAVA_MODULE": "corretto-17",
-    "last_opened_file_path": "/Users/mac_1/workplace3/My-Armory-ForJava/Spring-Boot-NewJDK17",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2551724",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "spring.configuration.checksum": "905d87e740386be8204c59fa465e2618"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/mac_1/workplace3/My-Armory-ForJava/Spring-Boot-Crossdomain2/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2551724&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;e0e9619cf6d81091d4685f7727bb23b9&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Spring-Boot-NewJDK17" />
-      <recent name="$PROJECT_DIR$/Code-Video" />
-      <recent name="$PROJECT_DIR$/Java-Security" />
+      <recent name="$PROJECT_DIR$/Spring-Boot-Crossdomain2/src/main/resources" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/Code-Video/src/main/resources" />
+      <recent name="$PROJECT_DIR$/Spring-Boot-Crossdomain/src/main/java/org/example/cross" />
+      <recent name="$PROJECT_DIR$/Spring-Boot-NewJDK21/src/main/java/com" />
+      <recent name="$PROJECT_DIR$/Spring-Boot-SAML/src/main/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Spring-Bean" />
@@ -105,34 +625,35 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.video.hashedWheelTimer.service" />
       <recent name="com.refactor.strategy" />
       <recent name="com.refactor.rule" />
       <recent name="com.refactor.enumeration" />
       <recent name="com.es" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.video.javaOutline.conllection.list" />
-      <recent name="com.video.googleLimit" />
-      <recent name="com.example.Thymeleaf.controller" />
-      <recent name="com.netty.webscoket.server" />
-      <recent name="com.base.extendstest" />
+      <recent name="org.example.cross.conf" />
+      <recent name="com.example.swagger.controller" />
+      <recent name="com.quartz" />
+      <recent name="com.quartz.conf" />
+      <recent name="com.video.hashedWheelTimer.multipleRoundsWheelTimer" />
     </key>
   </component>
   <component name="RestServicesNavigator">
     <treeState>
       <expand>
         <path>
-          <item name="Found 15 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+          <item name="Found 17 services " type="fcff1e1b:RestServiceStructure$RootNode" />
         </path>
         <path>
-          <item name="Found 15 services " type="fcff1e1b:RestServiceStructure$RootNode" />
-          <item name="Spring-Boot-NewJDK17" type="c588b436:RestServiceStructure$ProjectNode" />
+          <item name="Found 17 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+          <item name="Code-Video" type="c588b436:RestServiceStructure$ProjectNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Application.NullPointerExceptionEnhancer">
+  <component name="RunManager" selected="Spring Boot.Main (1)">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -144,80 +665,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyJDK17Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="corretto-17" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.jdk17.MyJDK17Application" />
-      <module name="Spring-Boot-NewJDK17" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jdk17.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="generated-requests | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="2" requestIdentifier="#2" runType="Run single request">
+      <method v="2" />
     </configuration>
-    <configuration name="NullPointerExceptionEnhancer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jdk17.jdk14.NullPointerExceptionEnhancer" />
-      <module name="Spring-Boot-NewJDK17" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jdk17.jdk14.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="generated-requests | #3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="3" requestIdentifier="#3" runType="Run single request">
+      <method v="2" />
     </configuration>
-    <configuration name="RecordTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jdk17.jdk16.RecordTest" />
-      <module name="Spring-Boot-NewJDK17" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jdk17.jdk16.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VarTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jdk17.jdk10.VarTest" />
-      <module name="Spring-Boot-NewJDK17" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jdk17.jdk10.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="functionnalDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.video.functionalTest.functionnalDemo" />
-      <module name="Code-Video" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.video.functionalTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DemoApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <option name="ACTIVE_PROFILES" />
-      <module name="Spring-Aop" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springaop.audit.DemoApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="generated-requests | #4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="4" requestIdentifier="#4" runType="Run single request">
+      <method v="2" />
     </configuration>
     <configuration name="DemoApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="Spring-Bean" />
@@ -227,9 +682,34 @@
       </method>
     </configuration>
     <configuration name="DemoApplication (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <option name="ACTIVE_PROFILES" />
       <module name="Spring-Boot" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springboot.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Spring-Boot-Crossdomain (1)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.Main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Spring-Boot-Crossdomain" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.Main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -241,26 +721,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringAopDemoStarter" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Spring-Aop" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springaop.SpringAopDemoStarter" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.NullPointerExceptionEnhancer" />
-      <item itemvalue="Application.RecordTest" />
-      <item itemvalue="Application.VarTest" />
-      <item itemvalue="Application.MyJDK17Application" />
-      <item itemvalue="Application.functionnalDemo" />
+      <item itemvalue="HTTP Request.generated-requests | #4" />
+      <item itemvalue="HTTP Request.generated-requests | #2" />
+      <item itemvalue="HTTP Request.generated-requests | #3" />
+      <item itemvalue="Spring Boot.SpringAopDemoStarter" />
       <item itemvalue="Spring Boot.MyJDK17Application" />
-      <item itemvalue="Spring Boot.DemoApplication (1)" />
       <item itemvalue="Spring Boot.DemoApplication (2)" />
       <item itemvalue="Spring Boot.DemoApplication (3)" />
+      <item itemvalue="Spring Boot.Main (1)" />
+      <item itemvalue="Spring Boot.Main" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NullPointerExceptionEnhancer" />
-        <item itemvalue="Application.MyJDK17Application" />
-        <item itemvalue="Application.RecordTest" />
-        <item itemvalue="Application.VarTest" />
-        <item itemvalue="Application.functionnalDemo" />
+        <item itemvalue="Spring Boot.Main (1)" />
+        <item itemvalue="HTTP Request.generated-requests | #4" />
+        <item itemvalue="HTTP Request.generated-requests | #2" />
+        <item itemvalue="HTTP Request.generated-requests | #3" />
+        <item itemvalue="Spring Boot.Main" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-1.8.0_382-corretto-1.8.0_382-a7578c744062-6293eed1" />
+        <option value="jdk-21-openjdk-21-a7578c744062-fe499498" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SshConsoleOptionsProvider">
@@ -399,7 +894,89 @@
       <workItem from="1673342129707" duration="4504000" />
       <workItem from="1673401690664" duration="15347000" />
       <workItem from="1673618356979" duration="5217000" />
-      <workItem from="1673623671908" duration="22047000" />
+      <workItem from="1673623671908" duration="26688000" />
+      <workItem from="1673940888446" duration="1786000" />
+      <workItem from="1674118356194" duration="9859000" />
+      <workItem from="1674725232741" duration="6690000" />
+      <workItem from="1675064447270" duration="33178000" />
+      <workItem from="1675304056650" duration="36000" />
+      <workItem from="1675304175046" duration="13334000" />
+      <workItem from="1675406255965" duration="27530000" />
+      <workItem from="1675841445891" duration="41000" />
+      <workItem from="1675841615083" duration="11767000" />
+      <workItem from="1675996538765" duration="3142000" />
+      <workItem from="1676294534464" duration="4482000" />
+      <workItem from="1676366860471" duration="697000" />
+      <workItem from="1676367762909" duration="1000" />
+      <workItem from="1676367777745" duration="1419000" />
+      <workItem from="1676369878673" duration="3988000" />
+      <workItem from="1676429747966" duration="5977000" />
+      <workItem from="1676469002062" duration="6089000" />
+      <workItem from="1676618660711" duration="598000" />
+      <workItem from="1676640332679" duration="13234000" />
+      <workItem from="1677030553026" duration="437000" />
+      <workItem from="1677117664875" duration="5137000" />
+      <workItem from="1677299669184" duration="1728000" />
+      <workItem from="1677808468083" duration="9376000" />
+      <workItem from="1677828041308" duration="10024000" />
+      <workItem from="1678073957957" duration="23658000" />
+      <workItem from="1678207847130" duration="4763000" />
+      <workItem from="1678712027390" duration="779000" />
+      <workItem from="1678850074355" duration="19445000" />
+      <workItem from="1679297036169" duration="17747000" />
+      <workItem from="1679537763050" duration="19366000" />
+      <workItem from="1679998858471" duration="9994000" />
+      <workItem from="1680149043214" duration="57000" />
+      <workItem from="1680156171823" duration="13854000" />
+      <workItem from="1680444521234" duration="2702000" />
+      <workItem from="1680954158917" duration="763000" />
+      <workItem from="1681090733726" duration="3000" />
+      <workItem from="1681439256524" duration="4469000" />
+      <workItem from="1681696325700" duration="74000" />
+      <workItem from="1681696425269" duration="2752000" />
+      <workItem from="1682217221268" duration="1220000" />
+      <workItem from="1682479871344" duration="597000" />
+      <workItem from="1682561001590" duration="8392000" />
+      <workItem from="1683362641562" duration="596000" />
+      <workItem from="1684145114746" duration="1468000" />
+      <workItem from="1684201855187" duration="3653000" />
+      <workItem from="1684821545519" duration="2182000" />
+      <workItem from="1685087308338" duration="622000" />
+      <workItem from="1685424776659" duration="1260000" />
+      <workItem from="1685950783164" duration="2320000" />
+      <workItem from="1691993997981" duration="3174000" />
+      <workItem from="1692084871113" duration="4690000" />
+      <workItem from="1695634466846" duration="2124000" />
+      <workItem from="1695636696401" duration="1853000" />
+      <workItem from="1695711159483" duration="1940000" />
+      <workItem from="1695718750254" duration="331000" />
+      <workItem from="1695719085640" duration="36000" />
+      <workItem from="1695719135285" duration="1644000" />
+      <workItem from="1695720790117" duration="926000" />
+      <workItem from="1695721825726" duration="1312000" />
+      <workItem from="1695724500714" duration="1596000" />
+      <workItem from="1695780708470" duration="1272000" />
+      <workItem from="1695781996000" duration="15046000" />
+      <workItem from="1696051824965" duration="8000" />
+      <workItem from="1696051910292" duration="7610000" />
+      <workItem from="1696571668656" duration="774000" />
+      <workItem from="1696572449714" duration="5000" />
+      <workItem from="1696649966054" duration="7877000" />
+      <workItem from="1696902177520" duration="6711000" />
+      <workItem from="1697013850083" duration="5736000" />
+      <workItem from="1697090095161" duration="4750000" />
+      <workItem from="1697118003832" duration="2386000" />
+      <workItem from="1697507574177" duration="23000" />
+      <workItem from="1697715416810" duration="4399000" />
+      <workItem from="1698723508846" duration="1460000" />
+      <workItem from="1698893952109" duration="96000" />
+      <workItem from="1699603774659" duration="5927000" />
+      <workItem from="1699854330088" duration="1074000" />
+      <workItem from="1699855418764" duration="119000" />
+      <workItem from="1699862988124" duration="95000" />
+      <workItem from="1699863098411" duration="232000" />
+      <workItem from="1699941465052" duration="20000" />
+      <workItem from="1699953614865" duration="424000" />
     </task>
     <task id="LOCAL-00001" summary="解决Spring Boot 6.x 与Swagger 3.0.0 不兼容问题">
       <created>1652412148954</created>
@@ -506,13 +1083,42 @@
       <option name="project" value="LOCAL" />
       <updated>1673709623315</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="functionnal函数接口整理">
+      <created>1673857756419</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1673857756419</updated>
+    </task>
+    <task id="LOCAL-00017" summary="functionnal函数接口整理">
+      <created>1673857803025</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1673857803025</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
@@ -539,21 +1145,6 @@
         </entry>
       </map>
     </option>
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="Branch">
-          <value>
-            <list>
-              <RecentGroup>
-                <option name="FILTER_VALUES">
-                  <option value="HEAD" />
-                </option>
-              </RecentGroup>
-            </list>
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -569,7 +1160,8 @@
     <MESSAGE value="格式整理" />
     <MESSAGE value="code video java8到java17的特性" />
     <MESSAGE value="code video java8到java17的特性 README整理" />
-    <option name="LAST_COMMIT_MESSAGE" value="code video java8到java17的特性 README整理" />
+    <MESSAGE value="functionnal函数接口整理" />
+    <option name="LAST_COMMIT_MESSAGE" value="functionnal函数接口整理" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -579,14 +1171,26 @@
           <line>38</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java-Base/src/main/java/com/base/datastructure/collection/TestSetToList.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java-Base/src/main/java/bug/ArrayTest.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Spring-Boot-Swagger2/src/main/java/com/example/swagger/controller/UserController.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/My_Armory_ForJava$testsql.coverage" NAME="testsql Coverage Results" MODIFIED="1673334481559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python-Projrct" />
   </component>
 </project>

@@ -1,6 +1,7 @@
 package com.jdk17.jdk14;
 
 import java.util.ArrayList;
+import java.util.concurrent.TimeUnit;
 
 /**
  * NullPointerException问题
@@ -15,6 +16,7 @@ public class NullPointerExceptionEnhancer {
             var a = new ArrayList<Integer>();
             a.add(null);
             System.out.println(a.get(0).longValue());
+            TimeUnit.SECONDS.sleep(10);
         } catch (Exception e) {
             e.printStackTrace();
         }

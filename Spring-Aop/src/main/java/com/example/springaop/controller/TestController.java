@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 public class TestController {
 
+	@Audit(operation="test",operate_type="get")
 	@GetMapping("/test")
 	public String methodOne(String name) {
 		Pageable pageable= PageRequest.of(0,6);

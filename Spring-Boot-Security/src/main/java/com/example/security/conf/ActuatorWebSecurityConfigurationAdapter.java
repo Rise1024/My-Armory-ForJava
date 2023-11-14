@@ -18,12 +18,35 @@ public class ActuatorWebSecurityConfigurationAdapter extends WebSecurityConfigur
     //定义可以访问/actuator的ip地址数组，只有指定ip在指定数组里面并且登陆才可以访问
     String [] ipAddresses = new String[] {"127.0.0.1"};
 
-    @Override
-    protected void configure(HttpSecurity http) throws Exception {
-        http.requestMatcher(EndpointRequest.toAnyEndpoint()).authorizeRequests((requests) ->
-                requests.anyRequest().hasRole("ADMIN"));
-        http.httpBasic();
-    }
+    /**
+     * 放开所有接口
+     * @param http
+     * @throws Exception
+     */
+
+        @Override
+        protected void configure(HttpSecurity http) throws Exception {
+            http
+                    .authorizeRequests()
+                    .antMatchers("/hello/**").permitAll() // 忽略/public路径下的接口
+                    .anyRequest().authenticated()
+                    .and()
+                    .formLogin()
+                    .and()
+                    .httpBasic();
+        }
+
+
+//    @Override
+//    protected void configure(HttpSecurity http) throws Exception {
+//        http.authorizeRequests()
+//                .antMatchers("/hello/**").anonymous() // 禁用/public路径下的接口的安全性
+//                .anyRequest().authenticated()
+//                .and()
+//                .formLogin()
+//                .and()
+//                .httpBasic();
+//    }
 
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {

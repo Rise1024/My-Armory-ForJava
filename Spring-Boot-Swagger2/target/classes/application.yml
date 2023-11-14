@@ -1,13 +1,11 @@
 server:
-  port: 8080
+  port: 8888
 
 spring:
   mvc:
     pathmatch:
       matching-strategy: ant_path_matcher
-#访问地址： http://127.0.0.1:8080/swagger-ui/index.html
-
-#swagger html转word 参见https://github.com/JMCuixy/swagger2word
+#访问地址： http://127.0.0.1:8888/swagger-ui/index.html
 
 
 

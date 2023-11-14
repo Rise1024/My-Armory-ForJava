@@ -37,24 +37,24 @@
       <option name="url" value="https://repo.spring.io/milestone" />
     </remote-repository>
     <remote-repository>
-      <option name="id" value="central" />
-      <option name="name" value="central" />
-      <option name="url" value="https://repo1.maven.org/maven2" />
-    </remote-repository>
-    <remote-repository>
       <option name="id" value="easemob-central" />
       <option name="name" value="Easemob Maven Central" />
       <option name="url" value="http://hk.nexus.op.easemob.com/nexus/content/groups/public/" />
     </remote-repository>
     <remote-repository>
-      <option name="id" value="easemob-snapshots" />
-      <option name="name" value="Easemob Maven Snapshot" />
-      <option name="url" value="https://hk.nexus.op.easemob.com/nexus/content/repositories/snapshots/" />
+      <option name="id" value="central" />
+      <option name="name" value="central" />
+      <option name="url" value="https://repo1.maven.org/maven2" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="easemob-snapshots" />
       <option name="name" value="Easemob Maven Snapshot" />
       <option name="url" value="http://hk.nexus.op.easemob.com/nexus/content/repositories/snapshots/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="easemob-snapshots" />
+      <option name="name" value="Easemob Maven Snapshot" />
+      <option name="url" value="https://hk.nexus.op.easemob.com/nexus/content/repositories/snapshots/" />
     </remote-repository>
   </component>
 </project>

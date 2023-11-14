@@ -3,12 +3,12 @@ package com.example.springaop.audit;
 
 import com.alibaba.fastjson.JSONObject;
 import com.example.springaop.filter.HttpServletContent;
+import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.*;
 import org.aspectj.lang.reflect.CodeSignature;
 import org.aspectj.lang.reflect.MethodSignature;
-import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.DefaultParameterNameDiscoverer;
@@ -27,6 +27,7 @@ import javax.servlet.http.HttpServletRequest;
 import java.lang.reflect.Method;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.logging.Logger;
 
 
 /**
@@ -35,11 +36,9 @@ import java.util.Map;
  * @createTime 2021/10/18 18:16
  */
 
+@Slf4j
 @Aspect
-@Component
 public class AuditAop {
-    private static final Logger LOGGER = LoggerFactory.getLogger(LogNameEnum.AUDITLOG.getLogName());
-
 //    @Autowired
 //    private SnowflakeIdWorker worker;
 
@@ -145,7 +144,7 @@ public class AuditAop {
             auditMessage.setOperate_object(operate_object.get());
             msg.set(auditMessage);
         } catch (Exception e) {
-            LOGGER.error("Error occured while auditing, cause by: ", e);
+            log.error("Error occured while auditing, cause by: ", e);
         }
         Object rtn = pjp.proceed();
         return rtn;
@@ -179,7 +178,7 @@ public class AuditAop {
             auditMessage.setOperate_object(operate_object.get());
             msg.set(auditMessage);
         } catch (Exception e) {
-            LOGGER.error("Error occured while auditing, cause by: ", e);
+            log.error("Error occured while auditing, cause by: ", e);
         }
         Object rtn = pjp.proceed();
         return rtn;
@@ -214,14 +213,14 @@ public class AuditAop {
                 } else {
                     auditMessage.setDetail(JSONObject.toJSONString(result.getBody().getEntity()));
                 }
-                LOGGER.info("info:{}", JSONObject.toJSONString(auditMessage));
+                log.info("info:{}", JSONObject.toJSONString(auditMessage));
                 return;
             }
             if (ApiResponse.STATUS_FAIL.equals(result.getBody().getStatus())) {
                 AuditMessage auditMessage = msg.get();
                 auditMessage.setResult(ResponseContent.STATUS_FAIL);
                 auditMessage.setDetail(result.getBody().getErrorDescription());
-                LOGGER.info("info:{}", JSONObject.toJSONString(auditMessage));
+                log.info("info:{}", JSONObject.toJSONString(auditMessage));
                 return;
             }
         }
@@ -229,7 +228,7 @@ public class AuditAop {
             AuditMessage auditMessage = msg.get();
             auditMessage.setResult(ResponseContent.STATUS_OK);
             auditMessage.setDetail(JSONObject.toJSONString(rc));
-            LOGGER.info("info:{}", JSONObject.toJSONString(auditMessage));
+            log.info("info:{}", JSONObject.toJSONString(auditMessage));
             return;
         }
     }
@@ -241,7 +240,7 @@ public class AuditAop {
                 AuditMessage auditMessage = msg.get();
                 auditMessage.setResult(ResponseContent.STATUS_FAIL);
                 auditMessage.setDetail(e.getMessage());
-                LOGGER.info("info:{}", JSONObject.toJSONString(auditMessage));
+                log.info("info:{}", JSONObject.toJSONString(auditMessage));
             }
         } catch (Exception e1) {
 
@@ -255,7 +254,7 @@ public class AuditAop {
                 AuditMessage auditMessage = msg.get();
                 auditMessage.setResult(ResponseContent.STATUS_FAIL);
                 auditMessage.setDetail(e.getMessage());
-                LOGGER.info("info:{}", JSONObject.toJSONString(auditMessage));
+                log.info("info:{}", JSONObject.toJSONString(auditMessage));
             }
         } catch (Exception e1) {
 

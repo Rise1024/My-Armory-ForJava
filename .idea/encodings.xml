@@ -7,6 +7,11 @@
     <file url="file://$PROJECT_DIR$/Code-Video/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-Aop/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-Bean/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-Boot-Crossdomain/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-Boot-Crossdomain/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-Boot-Crossdomain2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-Boot-Docker/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-Boot-Docker/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-Boot-ES/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-Boot-ES/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-Boot-Log/src/main/java" charset="UTF-8" />
@@ -15,6 +20,12 @@
     <file url="file://$PROJECT_DIR$/Spring-Boot-Netty/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-Boot-NewJDK17/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-Boot-NewJDK17/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-Boot-NewJDK21/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-Boot-NewJDK21/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-Boot-Quartz/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-Boot-Quartz/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-Boot-SAML/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-Boot-SAML/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-Boot-Security/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-Boot-Shiro/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-Boot-Socketio/src/main/java" charset="UTF-8" />

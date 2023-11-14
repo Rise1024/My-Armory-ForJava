@@ -1,5 +1,7 @@
 package bug;
 
+import org.apache.commons.lang3.StringUtils;
+
 import java.util.*;
 
 /**
@@ -14,7 +16,7 @@ public class ArrayTest {
      * 它并非java.util.ArrayList类。
      * java.util.Arrays.ArrayList类具有 set()，get()，contains()等方法，
      * 但是不具有添加add()或删除remove()方法,所以调用add()方法会报错。
-     * @param args
+     * @param
      */
 //    public static void main(String[] args) {
 //        String[] strArray = new String[2];
@@ -41,9 +43,17 @@ public class ArrayTest {
         list.add(o);
     }
     public static void main(String[] args){
-        List<String> list = new ArrayList<String>();
-        add(list, 10);
-        String s = list.get(0);
+//        List<String> list = new ArrayList<String>();
+//        add(list, 10);
+//        String s = list.get(0);
+//        boolean equals1 = UUID.fromString("4cb0f657-6a0f-4e5f-a714-12e9be99345a").equals(UUID.fromString( "4cb0f657-6a0f-4e5f-a714-12e9be99345a"));
+//
+//        System.out.println(equals1);
+//
+//        boolean equals = UUID.fromString("tets:" + "4cb0f657-6a0f-4e5f-a714-12e9be99345a").equals(UUID.fromString("tets:" + "4cb0f657-6a0f-4e5f-a714-12e9be99345a"));
+//        System.out.println(equals);
+        System.out.println(StringUtils.join(null,",","111,fddfs"));
+
     }
 
 }

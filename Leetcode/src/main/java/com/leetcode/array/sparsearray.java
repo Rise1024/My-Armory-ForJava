@@ -1,5 +1,8 @@
 package com.leetcode.array;
 
+/**
+ * 数组 链表
+ */
 public class sparsearray {
 
     public static void main(String[] args) {

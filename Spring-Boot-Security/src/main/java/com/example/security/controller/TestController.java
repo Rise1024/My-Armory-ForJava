@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class TestController {
 
-    @GetMapping("/hello/{user}")
-    public String hello(@PathVariable("user") String user) {
-        return user+" loadUserByUsername success";
+    @GetMapping("/hello")
+    public String hello() {
+        return " loadUserByUsername success";
     }
 }

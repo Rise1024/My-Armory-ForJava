@@ -23,6 +23,7 @@ public class GuavaRateLimiterService {
     RateLimiter rateLimiter = RateLimiter.create(3);
 
     public boolean tryGetToken() {
+        rateLimiter.acquire();
         double rate = rateLimiter.getRate();
         System.out.println(rate);
         boolean b = rateLimiter.tryAcquire();
