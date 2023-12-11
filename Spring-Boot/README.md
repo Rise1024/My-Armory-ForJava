@@ -95,3 +95,49 @@ public ConfigurableApplicationContext run(String... args) {
 		return context;
 	}
 ```
+### Spring Boot在org.springframework.boot组下提供了以下应用程序启动器：
+
+| 名称                                     | 描述                                                   | Pom   |
+| ---------------------------------------- | ------------------------------------------------------ | ----- |
+| spring-boot-starter-thymeleaf            | 使用Thymeleaf视图构建MVC Web应用程序的启动器            | Pom   |
+| spring-boot-starter-data-couchbase       | 使用Couchbase面向文档的数据库和Spring Data Couchbase的启动器 | Pom   |
+| spring-boot-starter-artemis              | 使用Apache Artemis的JMS启动器                            | Pom   |
+| spring-boot-starter-web-services         | Spring Web Services 启动器                              | Pom   |
+| spring-boot-starter-mail                 | Java Mail和Spring Framework的电子邮件发送支持的启动器     | Pom   |
+| spring-boot-starter-data-redis           | Redis key-value 数据存储与Spring Data Redis和Jedis客户端启动器  | Pom   |
+| spring-boot-starter-web                  | 使用Spring MVC构建Web，包括RESTful应用程序。使用Tomcat作为默认的嵌入式容器的启动器 | Pom   |
+| spring-boot-starter-data-gemfire         | 使用GemFire分布式数据存储和Spring Data GemFire的启动器   | Pom   |
+| spring-boot-starter-activemq             | 使用Apache ActiveMQ的JMS启动器                          | Pom   |
+| spring-boot-starter-data-elasticsearch   | 使用Elasticsearch搜索和分析引擎和Spring Data Elasticsearch的启动器 | Pom   |
+| spring-boot-starter-integration          | Spring Integration 启动器                               | Pom   |
+| spring-boot-starter-test                 | 使用JUnit，Hamcrest和Mockito的库测试Spring Boot应用程序的启动器 | Pom   |
+| spring-boot-starter-jdbc                 | 使用JDBC与Tomcat JDBC连接池的启动器                     | Pom   |
+| spring-boot-starter-mobile               | 使用Spring Mobile构建Web应用程序的启动器                | Pom   |
+| spring-boot-starter-validation           | 使用Java Bean Validation 与Hibernate Validator的启动器  | Pom   |
+| spring-boot-starter-hateoas              | 使用Spring MVC和Spring HATEOAS构建基于超媒体的RESTful Web应用程序的启动器 | Pom   |
+| spring-boot-starter-jersey               | 使用JAX-RS和Jersey构建RESTful Web应用程序的启动器。spring-boot-starter-web的替代方案 | Pom   |
+| spring-boot-starter-data-neo4j           | 使用Neo4j图数据库和Spring Data Neo4j的启动器            | Pom   |
+| spring-boot-starter-data-ldap            | 使用Spring Data LDAP的启动器                            | Pom   |
+| spring-boot-starter-websocket            | 使用Spring Framework的WebSocket支持构建WebSocket应用程序的启动器 | Pom   |
+| spring-boot-starter-aop                  | 使用Spring AOP和AspectJ进行面向切面编程的启动器         | Pom   |
+| spring-boot-starter-amqp                 | 使用Spring AMQP和Rabbit MQ的启动器                      | Pom   |
+| spring-boot-starter-data-cassandra       | 使用Cassandra分布式数据库和Spring Data Cassandra的启动器 | Pom   |
+| spring-boot-starter-social-facebook      | 使用Spring Social Facebook 的启动器                     | Pom   |
+| spring-boot-starter-jta-atomikos         | 使用Atomikos的JTA事务的启动器                          | Pom   |
+| spring-boot-starter-security             | 使用Spring Security的启动器                             | Pom   |
+| spring-boot-starter-mustache             | 使用Mustache视图构建MVC Web应用程序的启动器             | Pom   |
+| spring-boot-starter-data-jpa             | 使用Spring数据JPA与Hibernate的启动器                    | Pom   |
+| spring-boot-starter                      | 核心启动器，包括自动配置支持，日志记录和YAML            | Pom   |
+| spring-boot-starter-groovy-templates     | 使用Groovy模板视图构建MVC Web应用程序的启动器           | Pom   |
+| spring-boot-starter-freemarker           | 使用FreeMarker视图构建MVC Web应用程序的启动器           | Pom   |
+| spring-boot-starter-batch                | 使用Spring Batch的启动器                                | Pom   |
+| spring-boot-starter-social-linkedin      | 使用Spring Social LinkedIn的启动器                     | Pom   |
+| spring-boot-starter-cache                | 使用Spring Framework缓存支持的启动器                    | Pom   |
+| spring-boot-starter-data-solr            | 使用Apache Solr搜索平台与Spring Data Solr的启动器       | Pom   |
+| spring-boot-starter-data-mongodb         | 使用MongoDB面向文档的数据库和Spring Data MongoDB的启动器 | Pom   |
+| spring-boot-starter-jooq                 | 使用jOOQ访问SQL数据库的启动器。 spring-boot-starter-data-jpa或spring-boot-starter-jdbc的替代方案 | Pom   |
+| spring-boot-starter-jta-narayana         | Spring Boot Narayana JTA 启动器                         | Pom   |
+| spring-boot-starter-cloud-connectors     | 使用Spring Cloud连接器，简化了与Cloud Foundry和Heroku等云平台中的服务连接的启动器 | Pom   |
+| spring-boot-starter-jta-bitronix         | 使用Bitronix进行JTA 事务的启动器                        | Pom   |
+| spring-boot-starter-social-twitter       | 使用Spring Social Twitter的启动器                       | Pom   |
+| spring-boot-starter-data-rest            | 通过使用Spring Data REST在REST上暴露Spring数据库的启动器 | Pom   |

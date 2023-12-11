@@ -4,6 +4,7 @@ package com.quartz;
 import com.quartz.task.JobTask;
 import org.quartz.*;
 import org.quartz.impl.StdSchedulerFactory;
+import org.quartz.impl.matchers.GroupMatcher;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
@@ -31,7 +32,7 @@ public class DemoApplication {
 
         //创建触发器
         Trigger trigger = TriggerBuilder.newTrigger().withIdentity("trigger1", "group1")
-                .startAt(DateBuilder.futureDate(3, DateBuilder.IntervalUnit.SECOND))
+                .startAt(DateBuilder.futureDate(5, DateBuilder.IntervalUnit.SECOND))
                 .withSchedule(SimpleScheduleBuilder.simpleSchedule().withMisfireHandlingInstructionNextWithExistingCount())
                 .forJob(jobDetail)
                 .build();
@@ -41,6 +42,18 @@ public class DemoApplication {
         scheduler.scheduleJob(jobDetail, trigger);
         //
         scheduler.start();
+
+        for (int i = 0; i < 100; i++) {
+            try {
+                Thread.sleep(2000);
+                System.out.printf(scheduler.getTriggerKeys(GroupMatcher.anyGroup()).toString());
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
+
+        }
+
+
 
     }
 }

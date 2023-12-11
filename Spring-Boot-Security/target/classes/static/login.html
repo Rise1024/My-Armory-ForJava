@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login Page</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f8f9fa;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .login-container {
+      background-color: #ffffff;
+      padding: 40px;
+      border-radius: 8px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      max-width: 400px;
+      width: 100%;
+      text-align: center;
+    }
+    h2 {
+      margin-bottom: 30px;
+      color: #007bff;
+    }
+    input[type="text"], input[type="password"] {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 20px;
+      border-radius: 6px;
+      border: 1px solid #ced4da;
+    }
+    input[type="submit"] {
+      width: 100%;
+      padding: 12px;
+      border-radius: 6px;
+      border: none;
+      background-color: #007bff;
+      color: #fff;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    input[type="submit"]:hover {
+      background-color: #0056b3;
+    }
+    input[type="submit"]:focus {
+      outline: none;
+    }
+    .form-group {
+      text-align: left;
+    }
+    label {
+      display: block;
+      margin-bottom: 5px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+<div class="login-container">
+  <h2>Login</h2>
+  <form id="loginForm" action="http://localhost:8080/security/login" method="post">
+    <div class="form-group">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+    </div>
+    <div class="form-group">
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+    </div>
+    <input type="submit" value="Login" id="loginButton">
+  </form>
+</div>
+<!-- HTML 中添加用于显示结果的 div 元素 -->
+<div id="result"></div>
+<script>
+  document.getElementById("loginForm").addEventListener("submit", function(event) {
+    event.preventDefault(); // 阻止表单默认提交行为
+
+    // 获取表单数据
+    let formData = new FormData(document.getElementById("loginForm"));
+
+    // 将数据转换为对象
+    let data = {};
+    formData.forEach(function(value, key){
+      data[key] = value;
+    });
+
+    // 发送 AJAX 请求
+    fetch("http://localhost:8080/security/login", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json" // 设置请求头为 application/json
+      },
+      body: JSON.stringify(data) // 将数据转换为 JSON 字符串发送请求
+    })
+            .then(response => response.json())
+            .then(data => {
+              // 将返回的结果显示在页面上的 div 元素中
+              const resultDiv = document.getElementById("result");
+              resultDiv.textContent = data.token;
+            })
+            .catch(error => {
+              console.error("请求失败:", error);
+              // 处理请求失败的情况
+            });
+  });
+</script>
+</body>
+</html>
