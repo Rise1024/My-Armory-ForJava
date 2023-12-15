@@ -91,4 +91,8 @@ docker pull (推镜像到私有仓库)<br>
 docker run -d  -p 5000:5000 -v /Users/mac_1/data/docker/registry:/var/lib/registry  registry
 ```
 
-docker-registry参考文档:https://yeasy.gitbook.io/docker_practice/repository/registry
+docker-registry参考文档:https://yeasy.gitbook.io/docker_practice/repository/registry <br>
+docker fabric8 maven插件参考文档: https://blog.lonelyman.site/archives/35 <br>
+fabric8官方文档:https://dmp.fabric8.io/ <br>
+docker官方文档:https://docs.docker.com/guides/get-started/ <br>
+dockerFile :https://docs.docker.com/engine/reference/builder/

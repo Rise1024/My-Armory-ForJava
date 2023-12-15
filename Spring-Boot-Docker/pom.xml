@@ -24,9 +24,9 @@
         <registry.host>http://127.0.0.1:5000</registry.host>
         <registry.username>root</registry.username>
         <registry.password>root</registry.password>
-<!--        <registry.namespace></registry.namespace>-->
         <buildVersion>1.0</buildVersion>
         <registry.host.name>127.0.0.1:5000</registry.host.name>
+<!--        <registry.host.name>127.0.0.1:5000</registry.host.name>-->
     </properties>
 
 
@@ -70,7 +70,13 @@
     <!--    </build>-->
 
     <build>
+        <!-- 指定package生成的文件名-->
+        <finalName>spring-boot-docker</finalName>
         <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
             <plugin>
                 <groupId>io.fabric8</groupId>
                 <artifactId>docker-maven-plugin</artifactId>
@@ -91,6 +97,7 @@
                             </build>
                         </image>
                     </images>
+
                 </configuration>
             </plugin>
 
