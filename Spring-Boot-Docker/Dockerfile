@@ -1,5 +1,5 @@
 # 基础镜像
-FROM java:8
+FROM openjdk:8-jre-slim
 # 作者信息
 MAINTAINER "DS"
 # 添加一个存储空间

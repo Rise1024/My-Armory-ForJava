@@ -83,6 +83,76 @@ docker pull (推镜像到私有仓库)<br>
 docker run -d  -p 5000:5000 -v /Users/mac_1/data/docker/registry:/var/lib/registry  registry
 ```
 
+- 视频脚本
+```
+现在很多项目打包测试的时候
+都不在手动出docker镜像
+使用maven插件
+就能自动化构建Docker镜像运行
+并推送到远程Docker服务器和私有仓库
+今天在做项目使用maven插件自动化构建Docker镜像的时候
+发现了很多问题
+给大家分享一下
+我们先在本地构建一个私有的镜像仓库
+使用官方提供的工具docker-registry
+可以用于构建私有的镜像仓库
+先把之前启动的容器给删除了
+启动容器
+登录私有仓库
+使用curl命令查看一下仓库镜像
+现在里面没有镜像
+我们也可以使用idea上的工具
+可视化仓库和本地的镜像
+在docker这里使用unix套接字连接docker服务
+然后在这里添加Docker Registry
+输入私有仓库服务的地址、用户名和密码
+连接之后我们就可以直观的看到私有仓库的镜像
+
+下面我们来使用maven插件
+自动化构建Docker镜像并运行
+常用的插件用两个
+一个是spotify公司的dockerfile-maven-plugin插件
+我们来测试一下
+简单配置一下dockerfile-maven-plugin
+finalName标签指定了项目构建后生成的最终文件的名称
+configuration用来配置插件,指定了Docker镜像的名称和标签
+executions用来设置执行过程
+我们这里设置打包后,
+执行docker build和docker push
+制作镜像并且推送到私有仓库
+另外在项目根目录有我们准备好的dockerfile文件
+下面来测试一下
+执行mvn package
+查看本地docker客户端
+docker镜像制作完成
+另外在私有仓库也看到了刚才制作的镜像
+
+这个插件一个很大的缺点是Dockerfile Maven插件不直接负责执行镜像
+执行镜像需要由Docker客户端或者其他工具来完成
+另外我们看到它的最新版本停留在了2019年
+
+所以我更建议使用下面这个插件
+fabric8平台提供的docker-maven-plugin插件
+这个插件在使用上相差不大
+可以使用dockerHost连接其他服务的docker服务
+我这里还是连接本机docker
+另外在goals配置下多了run
+可以直接执行镜像
+我们来试一下
+同样执行mvn package
+docker ps查看容器
+发现服务已经运行起来了
+可以简单测试一下接口
+测试成功
+
+另外需要注意的是如果宿主机是mac m1系统
+尽量使用版本较新的插件
+要不然可能会出现莫名的错误
+另外要注意拉取镜像的架构
+大家可以去试一下
+```
+
+
 ###  Jenkins + Docker + Github 实现自动化部署 Maven 项目
 
 ![img_1.png](https://tc.bian666.cf/file/3953fefe7aa9b98348ce1.png)
