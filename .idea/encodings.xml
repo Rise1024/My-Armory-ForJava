@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="GBK">
     <file url="file://$PROJECT_DIR$/Code-Refactoring/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Code-Refactoring/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Code-Video/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Code-Video/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-Aop/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-Aop/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-Bean/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-Bean/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-Boot-Actuator/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-Boot-Actuator/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-Boot-Crossdomain/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-Boot-Crossdomain/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-Boot-Crossdomain2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-Boot-Crossdomain2/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-Boot-Docker/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-Boot-Docker/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-Boot-ES/src/main/java" charset="UTF-8" />
@@ -24,22 +29,26 @@
     <file url="file://$PROJECT_DIR$/Spring-Boot-NewJDK21/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-Boot-Quartz/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-Boot-Quartz/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Spring-Boot-SAML/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Spring-Boot-SAML/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-Boot-RocketApi/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-Boot-RocketApi/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-Boot-Security/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-Boot-Security/src/main/resources" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Spring-Boot-ShardingSphere/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-Boot-ShardingSphere/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-Boot-Shiro/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Spring-Boot-Socketio/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Spring-Boot-Socketio/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-Boot-Shiro/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-Boot-Swagger2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-Boot-Swagger2/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-Boot-Thymeleaf/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-Boot-Thymeleaf/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-Boot-Webscoket/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-Boot-Webscoket/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-Boot/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-Boot/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-Cloud-Parent/Hystrix-Limiter/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-Cloud-Parent/Hystrix-Limiter/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Spring-Cloud-Parent/Hystrix-Model/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Spring-Cloud-Parent/Hystrix-Model/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-Cloud-Parent/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-Cloud-Parent/src/main/resources" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

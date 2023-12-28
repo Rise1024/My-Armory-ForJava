@@ -7,10 +7,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Spring-Boot-Crossdomain (2)" />
         <module name="Spring-Boot-Swagger2" />
         <module name="Java-Base" />
         <module name="Spring-Boot-Netty" />
+        <module name="Spring-Boot-ShardingSphere" />
         <module name="Spring-Boot-ES" />
         <module name="Spring-Boot-Security" />
         <module name="Spring-Boot-Shiro" />
@@ -21,13 +21,13 @@
         <module name="Spring-Boot-Quartz" />
         <module name="Spring-Boot-NewJDK21" />
         <module name="Spring-Boot-NewJDK17" />
-        <module name="Spring-Boot-Crossdomain (1)" />
         <module name="Spring-Boot-Docker" />
         <module name="Spring-Aop" />
         <module name="Java-Security" />
         <module name="Spring-Boot-Thymeleaf" />
         <module name="Leetcode" />
         <module name="Java-IO" />
+        <module name="Spring-Boot-Actuator" />
         <module name="Spring-Boot-Webscoket" />
         <module name="Spring-Boot-Log" />
         <module name="Hystrix-Limiter" />
@@ -35,8 +35,9 @@
         <module name="Code-Video" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="21">
-      <module name="Spring-Boot-SAML" target="1.8" />
+    <bytecodeTargetLevel target="8">
+      <module name="rocket-api-demo" target="1.8" />
+      <module name="Spring-Boot-RocketApi" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -52,9 +53,8 @@
       <module name="Spring-Aop" options="-parameters" />
       <module name="Spring-Bean" options="-parameters" />
       <module name="Spring-Boot" options="-parameters" />
+      <module name="Spring-Boot-Actuator" options="-parameters" />
       <module name="Spring-Boot-Crossdomain" options="-parameters" />
-      <module name="Spring-Boot-Crossdomain (1)" options="-parameters" />
-      <module name="Spring-Boot-Crossdomain (2)" options="-parameters" />
       <module name="Spring-Boot-Docker" options="-parameters" />
       <module name="Spring-Boot-ES" options="-parameters" />
       <module name="Spring-Boot-Log" options="-parameters" />
@@ -62,13 +62,15 @@
       <module name="Spring-Boot-NewJDK17" options="-parameters" />
       <module name="Spring-Boot-NewJDK21" options="-parameters" />
       <module name="Spring-Boot-Quartz" options="-parameters" />
-      <module name="Spring-Boot-SAML" options="" />
+      <module name="Spring-Boot-RocketApi" options="-parameters" />
       <module name="Spring-Boot-Security" options="-parameters" />
+      <module name="Spring-Boot-ShardingSphere" options="-parameters" />
       <module name="Spring-Boot-Shiro" options="-parameters" />
       <module name="Spring-Boot-Swagger2" options="-parameters" />
       <module name="Spring-Boot-Thymeleaf" options="-parameters" />
       <module name="Spring-Boot-Webscoket" options="-parameters" />
       <module name="Spring-Cloud-Parent" options="" />
+      <module name="rocket-api-demo" options="" />
     </option>
   </component>
 </project>

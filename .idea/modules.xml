@@ -3,8 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/My-Armory-ForJava.iml" filepath="$PROJECT_DIR$/.idea/My-Armory-ForJava.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Python-Projrct/Python-Projrct.iml" filepath="$PROJECT_DIR$/Python-Projrct/Python-Projrct.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Spring-Boot-Shirding.iml" filepath="$PROJECT_DIR$/Spring-Boot-Shirding.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-Boot-Security/Spring-Boot-Security.iml" filepath="$PROJECT_DIR$/Spring-Boot-Security/Spring-Boot-Security.iml" />
     </modules>
   </component>
 </project>
