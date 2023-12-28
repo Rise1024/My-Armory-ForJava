@@ -21,6 +21,11 @@
 | [Spring-Boot-Thymeleaf](./Spring-Boot-Thymeleaf)              | Thymeleaf模版引擎                  |
 | [Spring-Boot-Webscoket](./Spring-Boot-Webscoket)              | springboot集成webscoket          |
 | [Spring-Cloud-Histrix](./Spring-Cloud-Parent/Hystrix-Limiter) | hystrix限流熔断                    |
+| [Spring-Boot-Crossdomain](./Spring-Boot-Crossdomain)          | 跨域相关处理                         |
+| [Spring-Boot-Docker](./Spring-Boot-Docker)                    | docker maven插件                 |
+| [Spring-Boot-Actuator](./Spring-Boot-Actuator)                | 集成Actuator监控                   |
+| [Spring-Boot-Quartz](./Spring-Boot-Quartz)                  | Quartz定时任务框架                   |
+
 
 
 ### 二、面试大纲持续完善
