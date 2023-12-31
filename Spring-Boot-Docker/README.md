@@ -312,6 +312,7 @@ docker官方文档:https://docs.docker.com/guides/get-started/ <br>
 dockerFile :https://docs.docker.com/engine/reference/builder/
 
 
-
+### test
+![](http://124.70.69.196:9001/tuchuang/img/头像2.jpg)
 
 
