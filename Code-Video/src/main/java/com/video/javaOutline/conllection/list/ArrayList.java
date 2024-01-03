@@ -1,7 +1,5 @@
 package com.video.javaOutline.conllection.list;
 
-import sun.misc.SharedSecrets;
-
 import java.util.*;
 import java.util.function.Consumer;
 import java.util.function.Predicate;
@@ -734,32 +732,6 @@ public class ArrayList<E> extends AbstractList<E>
         }
     }
 
-    /**
-     * 从流中重构ArrayList实例（即反序列化）。
-     */
-    private void readObject(java.io.ObjectInputStream s)
-            throws java.io.IOException, ClassNotFoundException {
-        elementData = EMPTY_ELEMENTDATA;
-
-        // 执行默认的序列化/反序列化过程
-        s.defaultReadObject();
-
-        // 读入数组长度
-        s.readInt(); // ignored
-
-        if (size > 0) {
-            // 像clone()方法 ，但根据大小而不是容量分配数组
-            int capacity = calculateCapacity(elementData, size);
-            SharedSecrets.getJavaOISAccess().checkArray(s, Object[].class, capacity);
-            ensureCapacityInternal(size);
-
-            Object[] a = elementData;
-            //读入所有元素
-            for (int i = 0; i < size; i++) {
-                a[i] = s.readObject();
-            }
-        }
-    }
 
     /**
      * 返回一个从index开始的ListIterator对象
