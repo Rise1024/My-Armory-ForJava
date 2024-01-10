@@ -15,7 +15,7 @@ public class AESTest {
 
     public static void main(String[] args) {
         jdkAES();
-//        bcAES();
+        bcAES();
     }
 
     // 用jdk实现:

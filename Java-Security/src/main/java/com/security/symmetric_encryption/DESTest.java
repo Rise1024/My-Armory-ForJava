@@ -19,7 +19,6 @@ public class DESTest
 	{
 		jdkDES();
 		bcDES();
-
 	}
 	
 	// 用jdk实现:
@@ -34,14 +33,12 @@ public class DESTest
 			SecretKey secretKey = keyGenerator.generateKey();
 			// 获取密钥
 			byte[] bytesKey = secretKey.getEncoded();
-			
-			
+
 			// KEY转换
 			DESKeySpec desKeySpec = new DESKeySpec(bytesKey);
 			SecretKeyFactory factory = SecretKeyFactory.getInstance("DES");
 			Key convertSecretKey = factory.generateSecret(desKeySpec);
-			
-			
+
 			// 加密
 			Cipher cipher = Cipher.getInstance("DES/ECB/PKCS5Padding");
 			cipher.init(Cipher.ENCRYPT_MODE, convertSecretKey);

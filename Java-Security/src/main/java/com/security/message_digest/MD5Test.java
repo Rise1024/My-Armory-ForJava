@@ -18,15 +18,13 @@ public class MD5Test
 	public static void main(String[] args) 
 	{
 		jdkMD5();
-		jdkMD5fork();
-//		jdkMD2();
-//
-//		bcMD4();
-//		bcMD5();
-//
-//		bc2jdkMD4();
-//		ccMD5();
-//		ccMD2();
+		jdkMD2();
+
+		bcMD4();
+		bcMD5();
+
+		ccMD5();
+		ccMD2();
 
 	}
 	
@@ -43,37 +41,6 @@ public class MD5Test
 			e.printStackTrace();
 		}
 	}
-
-	public static String jdkMD5fork() {
-		MessageDigest md;
-		try {
-			md = MessageDigest.getInstance("MD5");
-		} catch (NoSuchAlgorithmException e) {
-			throw new RuntimeException(e);
-		}
-		byte[] messageDigest = md.digest(src.getBytes());
-		BigInteger number = new BigInteger(1, messageDigest);
-		String hashtext = number.toString(16);
-		// Now we need to zero pad it if you actually want the full 32 chars.
-		while (hashtext.length() < 32) {
-			hashtext = "0" + hashtext;
-		}
-	System.out.println(hashtext);
-	return hashtext;
-	}
-
-//	public static void convertMD5(String inStr){
-//
-//		char[] a = inStr.toCharArray();
-//		for (int i = 0; i < a.length; i++){
-//			a[i] = (char) (a[i] ^ 't');
-//		}
-//		String s = new String(a);
-//		System.out.println(s);
-//
-//	}
-
-
 	
 	// 用jdk实现:MD2
 	public static void jdkMD2()
@@ -112,20 +79,7 @@ public class MD5Test
 		System.out.println("bouncy castle MD4:" + org.bouncycastle.util.encoders.Hex.toHexString(md4Bytes));
 	}
 	
-	// 用bouncy castle与jdk结合实现:MD4
-	public static void bc2jdkMD4()
-	{
-		try 
-		{
-			Security.addProvider(new BouncyCastleProvider());
-			MessageDigest md = MessageDigest.getInstance("MD4");
-			byte[] md4Bytes = md.digest(src.getBytes());
-			System.out.println("bc and JDK MD4:" + Hex.encodeHexString(md4Bytes));
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
-	
+
 	// 用common codes实现实现:MD5
 	public static void ccMD5()
 	{

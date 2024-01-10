@@ -14,7 +14,6 @@ public class PBETest {
 	public static void main(String[] args) 
 	{
 		jdkPBE();
-
 	}
 
 	// 用jdk实现:

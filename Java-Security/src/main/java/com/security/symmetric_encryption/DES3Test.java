@@ -20,7 +20,6 @@ public class DES3Test
 	{
 		jdk3DES();
 		bc3DES();
-
 	}
 	
 	// 用jdk实现:
