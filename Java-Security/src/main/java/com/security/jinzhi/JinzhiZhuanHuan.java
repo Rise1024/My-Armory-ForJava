@@ -128,39 +128,43 @@ public class JinzhiZhuanHuan {
 
 
     public static void main(String[] args) {
-        //10进制转2进制
-        System.out.println(Integer.toBinaryString(100));
-        //10进制转8进制
-        System.out.println( Integer.toOctalString(100));
-        //10进制转16进制
-        System.out.println( Integer.toHexString(100));
+        System.out.println(123);
+//        //10进制转2进制
+        System.out.println(Integer.toBinaryString(123));
+//        //10进制转8进制
+        System.out.println( Integer.toOctalString(123));
+//        //10进制转16进制
+        System.out.println( Integer.toHexString(123));
         //10进制转r进制
-        System.out.println(Integer.toString(100, 16));
+        System.out.println(Integer.toString(123, 16));
 
         //其他进制转10进制
-        System.out.println(Integer.parseInt("64", 16));
-        System.out.println(Integer.parseInt("144", 8));
-        System.out.println(Integer.parseInt("1100100", 2));
+        System.out.println(Integer.parseInt("10101010", 2));
+
+        System.out.println(Integer.parseInt("76543210", 8));
 
 
-        /**
-         * 二进制数组转十六进制字符串
-         */
-        String str = "hello java";
-        String result = byte2hex1(str.getBytes());
-        String result1 = byte2hex2(str.getBytes());
-        String result2 = byte2hex3(str.getBytes());
-        String result3 = hex2byte4(str.getBytes(),16);
-        System.out.println(result);
-        System.out.println(result1);
-        System.out.println(result2);
-        System.out.println(result3);
-        byte[] bytes = hex2byte1(result);
-        byte[] bytes1 = hex2byte2(result);
-        byte[] bytes2 = hex2byte3(result);
-        System.out.println(new String(bytes));
-        System.out.println(new String(bytes1));
-        System.out.println(new String(bytes2));
+        System.out.println(Integer.parseInt("A1B3E7C0", 16));
+
+
+//        /**
+//         * 二进制数组转十六进制字符串
+//         */
+//        String str = "hello java";
+//        String result = byte2hex1(str.getBytes());
+//        String result1 = byte2hex2(str.getBytes());
+//        String result2 = byte2hex3(str.getBytes());
+//        String result3 = hex2byte4(str.getBytes(),16);
+//        System.out.println(result);
+//        System.out.println(result1);
+//        System.out.println(result2);
+//        System.out.println(result3);
+//        byte[] bytes = hex2byte1(result);
+//        byte[] bytes1 = hex2byte2(result);
+//        byte[] bytes2 = hex2byte3(result);
+//        System.out.println(new String(bytes));
+//        System.out.println(new String(bytes1));
+//        System.out.println(new String(bytes2));
 
 
 

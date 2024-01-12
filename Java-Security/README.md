@@ -1,8 +1,23 @@
-### java-security（java安全加密合集）
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-- [JAVA进制转换](/Java-Security/src/main/java/com/security/jinzhi/JinzhiZhuanHuan.java)
+- [java-security（java安全加密合集）](#java-securityjava%E5%AE%89%E5%85%A8%E5%8A%A0%E5%AF%86%E5%90%88%E9%9B%86)
+  - [JAVA进制转换](#java%E8%BF%9B%E5%88%B6%E8%BD%AC%E6%8D%A2)
+  - [JAVA安全实现三种方式](#java%E5%AE%89%E5%85%A8%E5%AE%9E%E7%8E%B0%E4%B8%89%E7%A7%8D%E6%96%B9%E5%BC%8F)
+  - [常用的加密算法](#%E5%B8%B8%E7%94%A8%E7%9A%84%E5%8A%A0%E5%AF%86%E7%AE%97%E6%B3%95)
 
-### [JAVA安全实现三种方式]
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+## java-security（java安全加密合集）
+
+### [JAVA进制转换](/Java-Security/src/main/java/com/security/jinzhi/JinzhiZhuanHuan.java)
+  - 十进制
+  - 二进制
+  - 八进制
+  - 十六进制
+
+### [JAVA安全实现三种方式](/Java-Security/src/main/java/com/security/)
 
     1.JDK 
 
@@ -35,6 +50,7 @@ public abstract class MessageDigest extends MessageDigestSpi {
     <version>${bcpkix-jdk15on.version}</version>
 </dependency>
 ```
+### 常用的加密算法
 
 - [一、Base64](/Java-Security/src/main/java/com/security/base64/Base64Test.java)
 
