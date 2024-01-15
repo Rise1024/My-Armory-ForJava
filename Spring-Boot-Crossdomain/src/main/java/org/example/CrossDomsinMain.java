@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Main {
+public class CrossDomsinMain {
     public static void main(String[] args) {
         {
-            SpringApplication.run(Main.class);
+            SpringApplication.run(CrossDomsinMain.class);
         }
     }
 }
