@@ -30,10 +30,11 @@ public class ScrewSqlTest {
     void documentGeneration() {
         //数据源
         HikariConfig hikariConfig = new HikariConfig();
-        hikariConfig.setDriverClassName("com.mysql.cj.jdbc.Driver");
-        hikariConfig.setJdbcUrl("jdbc:mysql://127.0.0.1:3306/study");
+        hikariConfig.setDriverClassName("com.mysql.jdbc.Driver");
+//        hikariConfig.setDriverClassName("com.mysql.cj.jdbc.Driver");
+        hikariConfig.setJdbcUrl("jdbc:mysql://127.0.0.1:3306/audio2?useUnicode=true&characterEncoding=utf8&autoReconnect=true&rewriteBatchedStatements=TRUE&useSSL=false");
         hikariConfig.setUsername("root");
-        hikariConfig.setPassword("");
+        hikariConfig.setPassword("1234");
         //设置可以获取tables remarks信息
         hikariConfig.addDataSourceProperty("useInformationSchema", "true");
         hikariConfig.setMinimumIdle(2);
@@ -42,15 +43,15 @@ public class ScrewSqlTest {
         //生成配置
         EngineConfig engineConfig = EngineConfig.builder()
                 //生成文件路径
-                .fileOutputDir("/Users/mac_1/workplace3/My-Armory-ForJava/screw")
+                .fileOutputDir("/Users/mac_1/workplace3/My-Armory-ForJava/Code-Video/screw/")
                 //打开目录
                 .openOutputDir(true)
                 //文件类型
-                .fileType(EngineFileType.HTML)
+                .fileType(EngineFileType.MD)
                 //生成模板实现
                 .produceType(EngineTemplateType.freemarker)
                 //自定义文件名称
-                .fileName("自定义文件名称").build();
+                .fileName("vcs_rtc_media表结构设计").build();
 
         //忽略表
         ArrayList<String> ignoreTableName = new ArrayList<>();
@@ -65,7 +66,7 @@ public class ScrewSqlTest {
         ProcessConfig processConfig = ProcessConfig.builder()
                 //指定生成逻辑、当存在指定表、指定表前缀、指定表后缀时，将生成指定表，其余表不生成、并跳过忽略表配置
                 //根据名称指定表生成
-                .designatedTableName(Arrays.asList("Student"))
+//                .designatedTableName(Arrays.asList("Student"))
 //                //根据表前缀生成
 //                .designatedTablePrefix(new ArrayList<>())
 //                //根据表后缀生成

@@ -18,7 +18,7 @@ public class JobTask implements Job {
     @Override
     public void execute(JobExecutionContext context) throws JobExecutionException {
         JobDataMap mergedJobDataMap = context.getMergedJobDataMap();
-        httpService.test();
+//        httpService.test();
 
         Integer test = mergedJobDataMap.getIntValue("test");
 
