@@ -36,7 +36,7 @@ public class CloudCallCenterQuartzConfig {
         StdSchedulerFactory stdSchedulerFactory = new StdSchedulerFactory(properties);
         Scheduler scheduler = stdSchedulerFactory.getScheduler();
         scheduler.setJobFactory(springBeanJobFactory());
-//        scheduler.start();
+        scheduler.start();
         return scheduler;
     }
 }
